@@ -1,0 +1,48 @@
+{
+    "OverrideBehaviour": "MERGE",
+    "BlackListedQuests": [], // will skip completely,
+    "Overrides": [
+        // id : string,                                     // id
+        // skip: boolean,                                  // will skip this quest if true (only weapons in the CanBeUsedAs will be added to the quest)
+        // conditions: string[]                              // if true, the mod will not add any weapons to this quest automatically.
+        // onlyUseWhiteListedWeapons: boolean,            // if true, only weapons in whiteListedWeapons will be used
+        // whiteListedWeapons: string[],              // these weapons will be added to the quest no matter what, can also be a category
+        // blackListedWeapons: string[],             // these weapons will be removed from the quest no matter what, can also be a category
+        {
+            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+            "conditions": ["668caeedbdb70c05d702f200"],
+            "whiteListedWeapons": ["AssaultCarbine"],
+            "skip": false
+        },
+        {
+            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+            "conditions": ["668caeedbdb70c05d702f203"],
+            "whiteListedWeapons": ["AssaultRifle"],
+            "skip": false
+        },
+        {
+            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+            "conditions": ["668caeedbdb70c05d702f206"],
+            "whiteListedWeapons": ["MachineGun"],
+            "skip": false
+        },
+        {
+            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+            "conditions": ["668caeedbdb70c05d702f209"],
+            "whiteListedWeapons": ["MarksmanRifle"],
+            "skip": false
+        },
+        {
+            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+            "conditions": ["668caeedbdb70c05d702f20c"],
+            "whiteListedWeapons": ["Shotgun"],
+            "skip": false
+        },
+        {
+            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+            "conditions": ["668caeedbdb70c05d702f20f"],
+            "whiteListedWeapons": ["Smg"],
+            "skip": false
+        }
+    ]
+}
