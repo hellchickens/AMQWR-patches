@@ -223,6 +223,7 @@
         "664274afd9fe3879695d90e9": "AssaultRifle,AssaultCarbine,MachineGun", // HK G3 11E 7.62x51mm
         "88fbc22adbea16f7dfc4dfc0": "AssaultRifle,AssaultCarbine,MarksmanRifle", // RFB Ambush 7.62x51mm
         "8d59d8b10a4c2e85b871c317": "AssaultRifle,AssaultCarbine,MarksmanRifle", // SIG MCX SPEAR 7.62x51 assault rifle
+        "65290f395ae2ae97b80fdf2d": "AssaultRifle,AssaultCarbine,MarksmanRifle", // default SIG MCX SPEAR 6.8x51 assault rifle
         "020020AACBBCFB0000000000": "AssaultRifle,AssaultCarbine,MarksmanRifle", // Rattle Back MCW 5.56x45 marksman rifle
         "66e88596febdcf9daade16a8": "AssaultCarbine,MarksmanRifle,SniperRifle", // Zastava M76 7.92x57mm
         "88fcbee6a6efe18ac4e5dfc0": "AssaultRifle,AssaultCarbine,MarksmanRifle", // VSS Blizzard 9x39mm
@@ -293,7 +294,7 @@
             "name": "AKM", // Identifier
             "ids": [], // if a weapon is in this list, it will be considered as this category no matter what
             "whiteListedKeywords": [
-                "\\b(AKM|AK-1|VPO|Draco)\\w*"
+                "\\b(AKM|AK-1|VPO|Draco|AEK-973)\\w*"
             ], //  these will be searched in the weapon name and description
             "blackListedKeywords": [], //  weapons with name/description containing these will be removed
             "allowedCalibres": [
@@ -339,7 +340,7 @@
             "name": "AK",
             "ids": [],
             "whiteListedKeywords": [
-                "\\b(AK|Draco|RAK74-P|AKS-74|AKS-74U)\\w*"
+                "\\b(AK|Draco|RAK74-P|AKS-74|AKS-74U|AEK-|AN-94)\\w*"
             ],
             "blackListedKeywords": [
                 "\\b(AK-50|Bofors)\\w*"
@@ -360,7 +361,7 @@
             "name": "AK-74",
             "ids": [],
             "whiteListedKeywords": [
-                "\\b(AK-74|AKS-74|SAG AK-545|Saiga SGL31|Saiga MK Ver. 030)\\w*"
+                "\\b(AK-74|AKS-74|SAG AK-545|Saiga SGL31|Saiga MK Ver. 030|AN-94|AEK-971)\\w*"
             ],
             "blackListedKeywords": [],
             "allowedCalibres": [],
