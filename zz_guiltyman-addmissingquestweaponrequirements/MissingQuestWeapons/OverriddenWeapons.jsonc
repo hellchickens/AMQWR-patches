@@ -85,6 +85,7 @@
         "88fcabfca15a5d44e79cdfc0": "Smg", // UMP .45 ACP
         "88fc9fa93b6a1c197747dfc0": "Smg", // Vector Extended
         "88fca322be2afcfabbcedfc0": "Smg", // Vector Dagger
+        "67f425638b8cbfdc0cd1b5f2": "Smg", // IWI Tavor X95 9x19mm assault rifle
         "020020BEF1BEF10000000000": "Smg,AssaultCarbine", // Tectonic Tactical Superi 46 4.6x30 submachine gun
         //  pistol
         "88fbcc2007de6151addddfc0": "Pistol", // RSh-12 Skyfire 12.7x55mm
@@ -117,8 +118,10 @@
         "88f8dd740adebb044701dfc0": "Pistol", // Battle Flare Gun
         "88f9cc4dcdada9ccc0f5dfc0": "Pistol", // Glock 18C 9x19mm Carbine
         "88f9cca04f309ce9d35edfc0": "Pistol", // Glock 18C 9x19mm Experimental
+        "68b7f4060a4536984f82cf4b": "Pistol", // HK MK23 .45 ACP pistol
         "88f91bf4bcc22a04b1d6dfc0": "Pistol,Smg", // FA 1911 .45 ACP
         // Assault rifle and assault carbine
+        "66839591f4d0cba7b041b2af": "AssaultCarbine", // Patriot 1776 (M4A1) 5.56x45mm
         "020020DF056DF05600000000": "AssaultRifle", // Defense Group DG-56 5.56x45 assault rifle
         "020020AACBBA1A0000000000": "AssaultRifle", // Rattle Back MCW 5.56x45 assault rifle (ALT)
         "020020BBA03BBA0300000000": "AssaultRifle", // QBZ-03 5.56x45mm
@@ -156,7 +159,8 @@
         "88fa9eae69cdafd7dc68dfc0": "AssaultRifle", // SIG MCX Psychedelic Teal 7.62x35mm
         "88fbe3e9f9efb26e887bdfc0": "AssaultRifle", // MK16 Neko 5.56x45mm
         "88fbf9cdcac07fdcdec0dfc0": "AssaultRifle", // SCI-FI 12.7x55mm
-        "67f425638b8cbfdc0cd1b5f2": "AssaultRifle,Smg", // IWI Tavor X95 9x19mm assault rifle
+        "68c23b960f579b9b5fe021e7": "AssaultRifle", // Simonov AG-042 5.45x39 assault rifle
+        "68cf56067ff6ceab0c2fd49e": "AssaultRifle", // Simonov AG-043 5.45x39 assault rifle
         "020020AB75AB750000000000": "AssaultRifle,AssaultCarbine", // Usenko TR-75 Geist 5.45x39 assault rifle
         "020020AB76AB760000000000": "AssaultRifle,AssaultCarbine", // Usenko TR-76 Geist 7.62x39 assault rifle
         "020020AB77AB770000000000": "AssaultRifle,AssaultCarbine", // Usenko TR-77 Geist 5.56x45 assault rifle
@@ -174,7 +178,6 @@
         "682d3dd16900cb35564c8825": "AssaultRifle,AssaultCarbine", // Bofors Ak5D 5.56x45 assault rifle
         "66ba249b102a9dd6040a6e7e": "AssaultRifle,AssaultCarbine", // IWI Carmel 5.56x45mm Assault Rifle
         "66ba26a6925f9921573224c9": "AssaultRifle,AssaultCarbine", // IWI Carmel 5.56x45mm Assault Rifle (FDE)
-        "66839591f4d0cba7b041b2af": "AssaultRifle,AssaultCarbine", // Patriot 1776 (M4A1) 5.56x45mm
         "664274a4d2e5fe0439d545a6": "AssaultRifle,AssaultCarbine", // HK G3 7.62x51 assault rifle
         "6632aab0b450b045b2160db9": "AssaultRifle,AssaultCarbine", // L85A2 5.56x45mm
         "6632b91ca1a7a5564dad34ac": "AssaultRifle,AssaultCarbine", // FAMAS F1 5.56x45mm
@@ -220,11 +223,10 @@
         "66e5b5e16c48ad4b4735cfbc": "AssaultRifle,MarksmanRifle", // Hoshizora SCAR 17 7.62x51mm
         "664a5b945636ce820472f225": "AssaultRifle,MarksmanRifle", // HK 417 7.62x51 assault rifle
         "020020F15DF15D0000000000": "AssaultCarbine,MarksmanRifle", // Expedite Firearms ISO Hemlock 7.62x51 marksman rifle
-        "664274afd9fe3879695d90e9": "AssaultRifle,AssaultCarbine,MachineGun", // HK G3 11E 7.62x51mm
+        "664274afd9fe3879695d90e9": "AssaultRifle,MachineGun", // HK G3 11E 7.62x51mm
         "88fbc22adbea16f7dfc4dfc0": "AssaultRifle,AssaultCarbine,MarksmanRifle", // RFB Ambush 7.62x51mm
-        "8d59d8b10a4c2e85b871c317": "AssaultRifle,AssaultCarbine,MarksmanRifle", // SIG MCX SPEAR 7.62x51 assault rifle
-        "65290f395ae2ae97b80fdf2d": "AssaultRifle,AssaultCarbine,MarksmanRifle", // default SIG MCX SPEAR 6.8x51 assault rifle
-        "020020AACBBCFB0000000000": "AssaultRifle,AssaultCarbine,MarksmanRifle", // Rattle Back MCW 5.56x45 marksman rifle
+        "8d59d8b10a4c2e85b871c317": "AssaultRifle,MarksmanRifle", // SIG MCX SPEAR 7.62x51 assault rifle
+        "020020AACBBCFB0000000000": "AssaultCarbine,MarksmanRifle", // Rattle Back MCW 5.56x45 marksman rifle
         "66e88596febdcf9daade16a8": "AssaultCarbine,MarksmanRifle,SniperRifle", // Zastava M76 7.92x57mm
         "88fcbee6a6efe18ac4e5dfc0": "AssaultRifle,AssaultCarbine,MarksmanRifle", // VSS Blizzard 9x39mm
         // machinegun
@@ -238,13 +240,20 @@
         "88f98372dd4acd0bbf7fdfc0": "MarksmanRifle,SniperRifle", // G28 Space Rider 7.62x51mm
         "88fabde73e750a7a675edfc0": "MarksmanRifle,SniperRifle", // Mk14 EBR 7.62x51mm
         "88faedc4b9dc1af63dcbdfc0": "MarksmanRifle,SniperRifle", // Mosin Infantry 7.62x54R Automatic
-        "683d23831960b7bac66f4f05": "MarksmanRifle,AssaultCarbine,AssaultRifle", // Echoes Defense SR-8.6 8.6 Blackout assault rifle
-        "6831efcaf17211a895bbccc4": "MarksmanRifle,AssaultCarbine,AssaultRifle", // Knight's Armament Company SR-25 E2 PR 6.5x48 assault rifle
+        "683d23831960b7bac66f4f05": "MarksmanRifle,AssaultRifle", // Echoes Defense SR-8.6 8.6 Blackout assault rifle
+        "6831efcaf17211a895bbccc4": "MarksmanRifle,AssaultRifle", // Knight's Armament Company SR-25 E2 PR 6.5x48 assault rifle
         // sniper rifle
         "686e9cc971fdf3a50ea5b9f3": "SniperRifle,MarksmanRifle", // TheAKGuy AK-50 .50 BMG sniper rifle
         "6787c587daf18caae2c47bda": "SniperRifle,MarksmanRifle", // Walther WA 2000 .300 Winchester Magnum Marksman Rifle
         "66c01f332770caf084f35480": "SniperRifle,MarksmanRifle", // Barrett M107A1 .50 BMG
-        "66c13c53999e17f0702c2e70": "SniperRifle,MarksmanRifle" // Barrett M107A1 FDE .50 BMG
+        "66c13c53999e17f0702c2e70": "SniperRifle,MarksmanRifle", // Barrett M107A1 FDE .50 BMG
+        // vanilla overrides
+        "65290f395ae2ae97b80fdf2d": "AssaultRifle,MarksmanRifle", //  SIG MCX SPEAR 6.8x51 assault rifle
+        "5d43021ca4b9362eab4b5e25": "AssaultCarbine,MarksmanRifle", //  Lone Star TX-15 DML 5.56x45 carbine
+        "645e0c6b3b381ede770e1cc9": "AssaultCarbine,MarksmanRifle", //  KBP VSK-94 9x39 rifle
+        "5dcbd56fdbd3d91b3e5468d5": "AssaultCarbine,MarksmanRifle", //  Desert Tech MDR 7.62x51 assault rifle
+        "5f2a9575926fd9352339381f": "AssaultCarbine,MarksmanRifle", //  Kel-Tec RFB 7.62x51 rifle
+        "57838ad32459774a17445cd2": "MarksmanRifle,SniperRifle" //  VSS Vintorez 9x39 special sniper rifle
     },
     // the weapons will be added when any other weapons are in the list
     // can also be a category
@@ -528,6 +537,19 @@
                 "Caliber86x63"
             ],
             "alsoCheckDescription": false
+        },
+        {
+            "name": "cal_762x25TT",
+            "ids": [],
+            "whiteListedKeywords": [],
+            "blackListedKeywords": [
+                "\\b(.300|Winchester)\\w*"
+            ],
+            "allowedCalibres": [
+                "Caliber762x25TT"
+            ],
+            "alsoCheckDescription": false
         }
+
     ]
 }

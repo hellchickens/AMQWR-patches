@@ -106,6 +106,24 @@
             "whiteListedWeapons": ["cal_9x39"],
             "onlyUseWhiteListedWeapons": true,
             "skip": false
+        },
+        {
+            "id": "5c0bd94186f7747a727f09b2", // Test-drive. Part 1
+            "whiteListedWeapons": ["M1A"],
+            "onlyUseWhiteListedWeapons": true,
+            "skip": false
+        },
+        {
+            "id": "64f5deac39e45b527a7c4232", // Test-drive. Part 3
+            "whiteListedWeapons": ["AK-12_like"],
+            "onlyUseWhiteListedWeapons": true,
+            "skip": false
+        },
+        {
+            "id": "675c1ff1a757ddd00404f0aa", // Test-drive. Part 6
+            "whiteListedWeapons": ["Velociraptor_only"],
+            "onlyUseWhiteListedWeapons": true,
+            "skip": false
         }
     ]
 }

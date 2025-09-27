@@ -40,16 +40,7 @@
             "blackListedKeywords": [
                 "\\b(SR-|MCX|ACR)\\w*"
             ],
-            "allowedCalibres": [
-                "Caliber545x39",
-                "Caliber556x45NATO",
-                "Caliber762x35",
-                "Caliber366TKM",
-                "Caliber9x19PARA",
-                "Caliber9x39",
-                "Caliber762x39",
-                "Caliber762x51"
-            ],
+            "allowedCalibres": [],
             "alsoCheckDescription": true
         },
         {
@@ -301,15 +292,67 @@
                 "NSV",
                 "PKP"
             ],
-            "blackListedKeywords": [
-                // "\\b(mosin|ak-|bolt-action|saiga|an-94)\\w*"
-            ],
+            "blackListedKeywords": [],
             "allowedCalibres": [
                 "Caliber762x54R",
                 "Caliber545x39",
                 "Caliber762x39"
             ],
             "weaponTypes": ["MachineGun"],
+            "alsoCheckDescription": true
+        },
+        {
+            "name": "soviet",
+            "ids": [],
+            "whiteListedKeywords": [
+                "soviet",
+                "ussr",
+                "svd",
+                "simonov",
+                "SKS",
+                "OP-SKS",
+                "ag-",
+                "AK-74",
+                "AKS-74",
+                "AKM",
+                "Makarov",
+                "PB",
+                "PM",
+                "AKS",
+                "APS",
+                "APB",
+                "mosin",
+                "TT-",
+                "Tokarev",
+                "VAL",
+                "VSS",
+                "PKM",
+                "PKP",
+                "KS-23",
+                "MP-43",
+                "Saiga"
+            ],
+            "blackListedKeywords": [
+                "type",
+                "RAK74-P",
+                "AN-94",
+                "AK-1",
+                "VSK-94",
+                "SR-3M",
+                "Molot Arms",
+                "PP-91",
+                "Kedr",
+                "Draco"
+            ],
+            "allowedCalibres": [
+                "Caliber762x54R",
+                "Caliber545x39",
+                "Caliber762x39",
+                "Caliber762x25TT",
+                "Caliber9x18PM",
+                "Caliber9x39"
+            ],
+            "weaponTypes": [],
             "alsoCheckDescription": true
         },
         {
