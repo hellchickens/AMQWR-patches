@@ -1,35 +1,9 @@
 {
-    ////////////////////////////////////
-    // #### Weapon Types ####
-    // AssaultCarbine
-    // AssaultRifle-
-    // MachineGun
-    // GrenadeLauncher
-    // MarksmanRifle
-    // Pistol
-    // Revolver
-    // Shotgun
-    // SniperRifle
-    // Smg
-    // ThrowWeap
-    // Knife
-    ////////////////////////////////////
-    // #### Restrictive Weapon Types ####
-    // BoltActionSniperRifle (SniperRifle)
-    // PumpActionShotgun (Shotgun)
-    // Revolver (Pistol)
-    ////////////////////////////////////
-    // no more needed since this can be done using the CustomCategories, but its already working so no need to change it
     "OverrideBehaviour": "MERGE",
     "Override": {},
-    // the weapons will be added when any other weapons are in the list
-    // can also be a category
     "CanBeUsedAs": {},
-    // if any two weapons' short names are the same or differs only by these words, they will be considered the same
     "CanBeUsedAsShortNameWhitelist": [],
-    // any weapon with these short names will be skipped from the previous list
     "CanBeUsedAsShortNameBlacklist" : [],
-    // for quests that need specific types of weapons
     "CustomCategories": [
         {
             "name": "HK",

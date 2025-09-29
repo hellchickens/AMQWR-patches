@@ -542,9 +542,7 @@
             "name": "cal_762x25TT",
             "ids": [],
             "whiteListedKeywords": [],
-            "blackListedKeywords": [
-                "\\b(.300|Winchester)\\w*"
-            ],
+            "blackListedKeywords": [],
             "allowedCalibres": [
                 "Caliber762x25TT"
             ],

@@ -1,13 +1,7 @@
 {
     "OverrideBehaviour": "MERGE",
-    "BlackListedQuests": [], // will skip completely,
+    "BlackListedQuests": [],
     "Overrides": [
-        // id : string,                                     // id
-        // skip: boolean,                                  // will skip this quest if true (only weapons in the CanBeUsedAs will be added to the quest)
-        // conditions: string[]                              // if true, the mod will not add any weapons to this quest automatically.
-        // onlyUseWhiteListedWeapons: boolean,            // if true, only weapons in whiteListedWeapons will be used
-        // whiteListedWeapons: string[],              // these weapons will be added to the quest no matter what, can also be a category
-        // blackListedWeapons: string[],             // these weapons will be removed from the quest no matter what, can also be a category
         {
             "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
             "conditions": ["668caeedbdb70c05d702f200"],

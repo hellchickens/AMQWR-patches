@@ -5,7 +5,7 @@
         "666314bafd5ca9577902e03a",  // The Good Times - Part 2
         "669fa3a40c828825de06d6a1",  // Test Drive - Part 5
         "671ac68e30609eb2c7e9a7f7"  // Dangerous Props
-    ], // will skip completely,
+    ],
     "Overrides": [
         // id : string,                                     // id
         // skip: boolean,                                  // will skip this quest if true (only weapons in the CanBeUsedAs will be added to the quest)
