@@ -1,42 +1,39 @@
 {
-    "OverrideBehaviour": "MERGE",
-    "BlackListedQuests": [],
-    "Overrides": [
-        {
-            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
-            "conditions": ["668caeedbdb70c05d702f200"],
-            "whiteListedWeapons": ["AssaultCarbine"],
-            "skip": false
-        },
-        {
-            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
-            "conditions": ["668caeedbdb70c05d702f203"],
-            "whiteListedWeapons": ["AssaultRifle"],
-            "skip": false
-        },
-        {
-            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
-            "conditions": ["668caeedbdb70c05d702f206"],
-            "whiteListedWeapons": ["MachineGun"],
-            "skip": false
-        },
-        {
-            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
-            "conditions": ["668caeedbdb70c05d702f209"],
-            "whiteListedWeapons": ["MarksmanRifle"],
-            "skip": false
-        },
-        {
-            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
-            "conditions": ["668caeedbdb70c05d702f20c"],
-            "whiteListedWeapons": ["Shotgun"],
-            "skip": false
-        },
-        {
-            "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
-            "conditions": ["668caeedbdb70c05d702f20f"],
-            "whiteListedWeapons": ["Smg"],
-            "skip": false
-        }
-    ]
+  "version": 2,
+  "OverrideBehaviour": "MERGE",
+  "excludedQuests": [
+    "68341846186efa3c5b07f989" // Balancing - part 1 PVE
+  ],
+  "Overrides": [
+    {
+        "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+        "conditions": ["668caeedbdb70c05d702f200"],
+        "includedWeapons": ["AssaultCarbine"]
+    },
+    {
+        "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+        "conditions": ["668caeedbdb70c05d702f203"],
+        "includedWeapons": ["AssaultRifle"]
+    },
+    {
+        "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+        "conditions": ["668caeedbdb70c05d702f206"],
+        "includedWeapons": ["MachineGun"]
+    },
+    {
+        "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+        "conditions": ["668caeedbdb70c05d702f209"],
+        "includedWeapons": ["MarksmanRifle"]
+    },
+    {
+        "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+        "conditions": ["668caeedbdb70c05d702f20c"],
+        "includedWeapons": ["Shotgun"]
+    },
+    {
+        "id": "668caeedbdb70c05d702f1fc", // Against the Conscience - Part 2
+        "conditions": ["668caeedbdb70c05d702f20f"],
+        "includedWeapons": ["Smg"]
+    }
+  ]
 }

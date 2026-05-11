@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "aliasNameStripWords": [],
+  "aliasNameExcludeWeapons": [],
+  "overrideBehaviour": "MERGE",
+  "canBeUsedAs": {},
+  "manualTypeOverrides": {
+
+  },
+  "customTypeRules": [
+    // {
+    //   "comment": "Group for HK weapons",
+    //   "conditions": {
+    //     "or": [
+    //       {
+    //         "nameMatches": "\\b(HK|Heckler|Koch)\\w*"
+    //       },
+    //       {
+    //         "descriptionMatches": "\\b(HK|Heckler|Koch)\\w*"
+    //       }
+    //     ],
+    //     "not": {
+    //       "or": [
+    //         {
+    //           "nameMatches": "(\\b(SR-|MCX|ACR)\\w*)"
+    //         },
+    //         {
+    //           "descriptionMatches": "(\\b(SR-|MCX|ACR)\\w*)"
+    //         }
+    //       ]
+    //     }
+    //   },
+    //   "type": "HK"
+    // }
+   ]
+}

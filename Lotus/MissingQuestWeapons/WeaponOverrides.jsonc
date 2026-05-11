@@ -1,0 +1,678 @@
+{
+  "version": 2,
+  "aliasNameStripWords": [],
+  "aliasNameExcludeWeapons": [],
+  "overrideBehaviour": "MERGE",
+  "canBeUsedAs": {},
+  "manualTypeOverrides": {
+    "61f7c9e189e6fb1a5e3ea78d": "BA_MR_762x54R",
+    "5cadfbf7ae92152ac412eeef": "russian_ar",
+    "6410733d5dd49d77bd07847e": "russian_ar",
+    "643ea5b23db6f9f57107d9fd": "russian_ar",
+    "620109578d82e67e7911abf2": "russian_smg_pistol",
+    "57f4c844245977379d5c14d1": "russian_smg_pistol"
+  },
+  "customTypeRules": [
+    {
+      "comment": "Group for HK weapons",
+      "conditions": {
+        "or": [
+          {
+            "nameMatches": "\\b(HK|Heckler|Koch)\\w*"
+          },
+          {
+            "descriptionMatches": "\\b(HK|Heckler|Koch)\\w*"
+          }
+        ],
+        "not": {
+          "or": [
+            {
+              "nameMatches": "(\\b(SR-|MCX|ACR)\\w*)"
+            },
+            {
+              "descriptionMatches": "(\\b(SR-|MCX|ACR)\\w*)"
+            }
+          ]
+        }
+      },
+      "type": "HK"
+    },
+    {
+      "comment": "Group for SR-25_like weapons",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "\\b(SR-)\\w*"
+              },
+              {
+                "descriptionMatches": "\\b(SR-)\\w*"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "caliber": "Caliber86x43"
+              },
+              {
+                "caliber": "Caliber762x51"
+              },
+              {
+                "caliber": "Caliber6.5x48"
+              },
+              {
+                "caliber": "Caliber68x51"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "AssaultRifle"
+              },
+              {
+                "hasAncestor": "AssaultCarbine"
+              },
+              {
+                "hasAncestor": "MarksmanRifle"
+              },
+              {
+                "hasAncestor": "SniperRifle"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "SR-25_like"
+    },
+    {
+      "comment": "Group for 7.62x54R Bolt-action and DMR weapons",
+      "conditions": {
+        "caliber": "Caliber762x54R",
+        "or": [
+          {
+            "hasAncestor": "MarksmanRifle"
+          },
+          {
+            "hasAncestor": "SniperRifle"
+          },
+          {
+            "hasAncestor": "BoltActionSniperRifle"
+          }
+        ]
+      },
+      "type": "BA_MR_762x54R"
+    },
+    {
+      "comment": "Group for 7.62x51 BoltAction weapons",
+      "conditions": {
+        "caliber": "Caliber762x51",
+        "or": [
+          {
+            "hasAncestor": "BoltActionSniperRifle"
+          },
+          {
+            "hasAncestor": "SniperRifle"
+          }
+        ]
+      },
+      "type": "BA_762x51"
+    },
+    {
+      "comment": "Group for 7.62x51 DMR weapons",
+      "conditions": {
+        "caliber": "Caliber762x51",
+        "or": [
+          {
+            "hasAncestor": "AssaultCarbine"
+          },
+          {
+            "hasAncestor": "MarksmanRifle"
+          },
+          {
+            "hasAncestor": "SniperRifle"
+          }
+        ]
+      },
+      "type": "MR_762x51"
+    },
+    {
+      "comment": "Group for 9x19PARA SMG weapons",
+      "conditions": {
+        "caliber": "Caliber9x19PARA",
+        "hasAncestor": "Smg"
+      },
+      "type": "smg_9x19PARA"
+    },
+    {
+      "comment": "Group for Remington M700-like weapons",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "\\b(m700|model 700)\\w*"
+              },
+              {
+                "descriptionMatches": "\\b(m700|model 700)\\w*"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "BoltActionSniperRifle"
+              },
+              {
+                "hasAncestor": "SniperRifle"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "m700"
+    },
+    {
+      "comment": "Group for VSS weapons",
+      "conditions": {
+        "nameMatches": "\\b(VSS|Vintorez)\\w*",
+        "caliber": "Caliber9x39",
+        "or": [
+          {
+            "hasAncestor": "AssaultCarbine"
+          },
+          {
+            "hasAncestor": "MarksmanRifle"
+          }
+        ],
+        "not": {
+          "nameMatches": "(\\b(VSK-94)\\w*)"
+        }
+      },
+      "type": "VSS"
+    },
+    {
+      "comment": "Group for only MCX SPEAR weapon variants",
+      "conditions": {
+        "or": [
+          {
+            "nameMatches": "\\b(spear)\\w*"
+          },
+          {
+            "descriptionMatches": "\\b(spear)\\w*"
+          }
+        ]
+      },
+      "type": "mcx_spear"
+    },
+    {
+      "comment": "Group for any MCX weapons",
+      "conditions": {
+        "or": [
+          {
+            "nameMatches": "\\b(mcx|virtus)\\w*"
+          },
+          {
+            "descriptionMatches": "\\b(mcx|virtus)\\w*"
+          }
+        ]
+      },
+      "type": "mcx_any"
+    },
+    {
+      "comment": "Group for any SCAR weapons",
+      "conditions": {
+        "or": [
+          {
+            "nameMatches": "\\b(scar)\\w*"
+          },
+          {
+            "descriptionMatches": "\\b(scar)\\w*"
+          }
+        ],
+        "not": {
+          "or": [
+            {
+              "nameMatches": "(\\b(ACR)\\w*)"
+            },
+            {
+              "descriptionMatches": "(\\b(ACR)\\w*)"
+            }
+          ]
+        }
+      },
+      "type": "scar_any"
+    },
+    {
+      "comment": "Group for 5.7 caliber pistols",
+      "conditions": {
+        "or": [
+          {
+            "nameMatches": "\\b(five-seven|57|pistol)\\w*"
+          },
+          {
+            "descriptionMatches": "\\b(five-seven|57|pistol)\\w*"
+          }
+        ],
+        "caliber": "Caliber57x28",
+        "hasAncestor": "Pistol"
+      },
+      "type": "57_pistol"
+    },
+    {
+      "comment": "Group for russian assault rifles and carbines",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-101|AKM|AK-1|AK-74|AKS-74U|SAG AK-545|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev"
+              },
+              {
+                "descriptionMatches": "AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-101|AKM|AK-1|AK-74|AKS-74U|SAG AK-545|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "AssaultCarbine"
+              },
+              {
+                "hasAncestor": "AssaultRifle"
+              }
+            ]
+          },
+          {
+            "not": {
+              "or": [
+                {
+                  "nameMatches": "(\\b(m1a|m4a|iwi|acr|mcx|cmmg|iso|hk|arx|ak5d|ak5c|zlr|echoes|pdw|RD-704|Velociraptor|Bofors)\\w*)"
+                },
+                {
+                  "descriptionMatches": "(\\b(m1a|m4a|iwi|acr|mcx|cmmg|iso|hk|arx|ak5d|ak5c|zlr|echoes|pdw|RD-704|Velociraptor|Bofors)\\w*)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "russian_ar"
+    },
+    {
+      "comment": "Group for russian smgs and pistols",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "Russia|Russian|Soviet|PM|BP|Makarov|SR-|PP-|TT-|Stechkin|PPSh-41|PL-|RSh-12|STM-9|SP-81|MP-|Saiga-9|9x18PMM"
+              },
+              {
+                "descriptionMatches": "Russia|Russian|Soviet|PM|BP|Makarov|SR-|PP-|TT-|Stechkin|PPSh-41|PL-|RSh-12|STM-9|SP-81|MP-|Saiga-9|9x18PMM"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "caliber": "Caliber9x19PARA"
+              },
+              {
+                "caliber": "Caliber9x18PM"
+              },
+              {
+                "caliber": "Caliber9x21"
+              },
+              {
+                "caliber": "Caliber762x25TT"
+              },
+              {
+                "caliber": "Caliber127x55"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "Smg"
+              },
+              {
+                "hasAncestor": "Pistol"
+              }
+            ]
+          },
+          {
+            "not": {
+              "or": [
+                {
+                  "nameMatches": "(\\b(Minebea)\\w*)"
+                },
+                {
+                  "descriptionMatches": "(\\b(Minebea)\\w*)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "russian_smg_pistol"
+    },
+    {
+      "comment": "Group for russian shotguns",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "Russia|Russian|Soviet|MP-|Saiga-12|TOZ"
+              },
+              {
+                "descriptionMatches": "Russia|Russian|Soviet|MP-|Saiga-12|TOZ"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "caliber": "Caliber12g"
+              },
+              {
+                "caliber": "Caliber20g"
+              },
+              {
+                "caliber": "Caliber23x75"
+              }
+            ]
+          },
+          {
+            "hasAncestor": "Shotgun"
+          },
+          {
+            "not": {
+              "or": [
+                {
+                  "nameMatches": "(\\b(remington|benelli|mossberg|Shorty|serbu)\\w*)"
+                },
+                {
+                  "descriptionMatches": "(\\b(remington|benelli|mossberg|Shorty|serbu)\\w*)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "russian_shotgun"
+    },
+    {
+      "comment": "Group for russian machineguns",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "PKM|RPD|PKTM|RPK|NSV|PKP"
+              },
+              {
+                "descriptionMatches": "PKM|RPD|PKTM|RPK|NSV|PKP"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "caliber": "Caliber762x54R"
+              },
+              {
+                "caliber": "Caliber545x39"
+              },
+              {
+                "caliber": "Caliber762x39"
+              }
+            ]
+          },
+          {
+            "hasAncestor": "MachineGun"
+          }
+        ]
+      },
+      "type": "russian_mg"
+    },
+    {
+      "comment": "Group for soviet weapons",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "soviet|ussr|svd|simonov|SKS|OP-SKS|ag-|AK-74|AKS-74|AKM|Makarov|PB|PM|AKS|APS|APB|mosin|TT-|Tokarev|VAL|VSS|PKM|PKP|KS-23|MP-43|Saiga"
+              },
+              {
+                "descriptionMatches": "soviet|ussr|svd|simonov|SKS|OP-SKS|ag-|AK-74|AKS-74|AKM|Makarov|PB|PM|AKS|APS|APB|mosin|TT-|Tokarev|VAL|VSS|PKM|PKP|KS-23|MP-43|Saiga"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "caliber": "Caliber762x54R"
+              },
+              {
+                "caliber": "Caliber545x39"
+              },
+              {
+                "caliber": "Caliber762x39"
+              },
+              {
+                "caliber": "Caliber762x25TT"
+              },
+              {
+                "caliber": "Caliber9x18PM"
+              },
+              {
+                "caliber": "Caliber9x39"
+              }
+            ]
+          },
+          {
+            "not": {
+              "or": [
+                {
+                  "nameMatches": "(type)|(RAK74-P)|(AN-94)|(AK-1)|(VSK-94)|(SR-3M)|(Molot Arms)|(PP-91)|(Kedr)|(Draco)"
+                },
+                {
+                  "descriptionMatches": "(type)|(RAK74-P)|(AN-94)|(AK-1)|(VSK-94)|(SR-3M)|(Molot Arms)|(PP-91)|(Kedr)|(Draco)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "soviet"
+    },
+    {
+      "comment": "Group strictly for AKM variants",
+      "conditions": {
+        "nameMatches": "\\b(AKM)\\w*",
+        "or": [
+          {
+            "hasAncestor": "AssaultRifle"
+          },
+          {
+            "hasAncestor": "AssaultCarbine"
+          }
+        ]
+      },
+      "type": "AKM_only"
+    },
+    {
+      "comment": "Group for AK-100 series weapons",
+      "conditions": {
+        "nameMatches": "\\b(AK-10)\\w*",
+        "or": [
+          {
+            "hasAncestor": "AssaultRifle"
+          },
+          {
+            "hasAncestor": "AssaultCarbine"
+          }
+        ]
+      },
+      "type": "AK-100_only"
+    },
+    {
+      "comment": "Group for AK-74 series weapons",
+      "conditions": {
+        "nameMatches": "\\b(AK-74)\\w*",
+        "or": [
+          {
+            "hasAncestor": "AssaultRifle"
+          },
+          {
+            "hasAncestor": "AssaultCarbine"
+          }
+        ]
+      },
+      "type": "AK-74_only"
+    },
+    {
+      "comment": "Group for AK-12 series weapons",
+      "conditions": {
+        "nameMatches": "\\b(AK-12|AK-15|AK-19)\\w*",
+        "or": [
+          {
+            "hasAncestor": "AssaultRifle"
+          },
+          {
+            "hasAncestor": "AssaultCarbine"
+          }
+        ]
+      },
+      "type": "AK-12_like"
+    },
+    {
+      "comment": "Group for Velociraptor variants",
+      "conditions": {
+        "nameMatches": "\\b(Velociraptor|Aklys)\\w*",
+        "or": [
+          {
+            "hasAncestor": "AssaultRifle"
+          },
+          {
+            "hasAncestor": "AssaultCarbine"
+          }
+        ]
+      },
+      "type": "Velociraptor_only"
+    },
+    {
+      "comment": "Group for Mk47 variants",
+      "conditions": {
+        "nameMatches": "\\b(Mk47)\\w*",
+        "or": [
+          {
+            "hasAncestor": "AssaultRifle"
+          },
+          {
+            "hasAncestor": "AssaultCarbine"
+          }
+        ]
+      },
+      "type": "Mk47_only"
+    },
+    {
+      "comment": "Group for only .300 BLK MCX variants",
+      "conditions": {
+        "nameMatches": "\\b(MCX|SIG|Virtus)\\w*",
+        "caliber": "Caliber762x35",
+        "or": [
+          {
+            "hasAncestor": "AssaultRifle"
+          },
+          {
+            "hasAncestor": "AssaultCarbine"
+          }
+        ]
+      },
+      "type": "MCX-blk_only"
+    },
+    {
+      "comment": "Group for AXMC variants",
+      "conditions": {
+        "nameMatches": "\\b(AXMC)\\w*",
+        "or": [
+          {
+            "hasAncestor": "BoltActionSniperRifle"
+          },
+          {
+            "hasAncestor": "SniperRifle"
+          }
+        ]
+      },
+      "type": "AXMC"
+    },
+    {
+      "comment": "Group for DVL-10 variants",
+      "conditions": {
+        "nameMatches": "\\b(DVL-10)\\w*",
+        "or": [
+          {
+            "hasAncestor": "BoltActionSniperRifle"
+          },
+          {
+            "hasAncestor": "SniperRifle"
+          }
+        ]
+      },
+      "type": "DVL-10"
+    },
+    {
+      "comment": "Group for SV-98 variants",
+      "conditions": {
+        "nameMatches": "\\b(SV-98)\\w*",
+        "or": [
+          {
+            "hasAncestor": "BoltActionSniperRifle"
+          },
+          {
+            "hasAncestor": "SniperRifle"
+          }
+        ]
+      },
+      "type": "SV-98"
+    },
+    {
+      "comment": "Group for Mosin variants",
+      "conditions": {
+        "nameMatches": "\\b(mosin)\\w*",
+        "or": [
+          {
+            "hasAncestor": "BoltActionSniperRifle"
+          },
+          {
+            "hasAncestor": "SniperRifle"
+          }
+        ]
+      },
+      "type": "Mosin"
+    },
+    {
+      "comment": "Group for M1A variants",
+      "conditions": {
+        "nameMatches": "\\b(M1A)\\w*",
+        "hasAncestor": "MarksmanRifle"
+      },
+      "type": "M1A"
+    },
+    {
+      "comment": "Group for HK-G28 similar variants",
+      "conditions": {
+        "nameMatches": "\\b(G28|HK 417)\\w*",
+        "hasAncestor": "MarksmanRifle"
+      },
+      "type": "HK-G28_like"
+    }
+  ]
+}

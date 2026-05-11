@@ -1,26 +1,24 @@
 {
-    "OverrideBehaviour": "MERGE",
-    "BlackListedQuests": [
-        "677fdcd382e30db2828dee1f" // Evelynn: The West - Part 1
-    ],
-        "Overrides": [
-        {
-            "id": "677fdcdc374fd42fac57454e", // Svetlana: Hum?
-            "whiteListedWeapons": ["AK"],
-            "onlyUseWhiteListedWeapons": true,
-            "skip": false
-        },
-        {
-            "id": "677fdcdca4df7500db1c7eb6", // Svetlana: AKS-U Mastery
-            "whiteListedWeapons": ["AKS-74U"],
-            "onlyUseWhiteListedWeapons": true,
-            "skip": false
-        },
-        {
-            "id": "677fdce0d063b4d3a555643e", // Svetlana: For the Mother of Russia
-            "whiteListedWeapons": ["mosin"],
-            "onlyUseWhiteListedWeapons": true,
-            "skip": false
-        }
-    ]
+  "version": 2,
+  "OverrideBehaviour": "MERGE",
+  "excludedQuests": [
+      "677fdcd382e30db2828dee1f" // Evelynn: The West - Part 1
+  ],
+  "Overrides": [
+  {
+      "id": "677fdcdc374fd42fac57454e", // Svetlana: Hum?
+      "includedWeapons": ["AK"],
+      "expansionMode": "NoExpansion"
+  },
+  {
+      "id": "677fdcdca4df7500db1c7eb6", // Svetlana: AKS-U Mastery
+      "includedWeapons": ["AKS-74U"],
+      "expansionMode": "NoExpansion"
+  },
+  {
+      "id": "677fdce0d063b4d3a555643e", // Svetlana: For the Mother of Russia
+      "includedWeapons": ["mosin"],
+      "expansionMode": "NoExpansion"
+  }
+  ]
 }

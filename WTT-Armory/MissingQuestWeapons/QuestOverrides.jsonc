@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "OverrideBehaviour": 1,
+    "excludedQuests": [
+     //   "6769f36baded384a687d97a1", // Lotus: Old But Gold - Part 1
+
+    ],
+    "Overrides": [
+    {
+        "id": "6879a0da60f8d8a90e632755", // Weapons Trial: Finale
+        "includedWeapons": [],
+        "expansionMode": "NoExpansion"
+    }
+    ]
+}
