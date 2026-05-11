@@ -124,7 +124,9 @@
     "633ec7c2a6918cb895019c6c": "Revolver,Pistol" // RSh-12 12.7x55 revolver
   },
   "canBeUsedAs": {
-    "5c46fbd72e2216398b5a8c9c": ["SVD"]
+    "5c46fbd72e2216398b5a8c9c": ["SVD"],
+    "5ac4cd105acfc40016339859": ["68e1040726e57f736103f02c"], // ak-74m
+    "5ac66d9b5acfc4001633997a": ["68d96442d7aac8a7a904db00","693c5deb2e28b0b1e304ad40","693db6b02539fba19b0c1390"] // ak-105
   },
   "aliasNameStripWords": [],
   "aliasNameExcludeWeapons": [
@@ -166,14 +168,27 @@
     {
       "comment": "Group for AKM like weapons",
       "conditions": {
-        "nameMatches": "\\b(AKM|AK-1|VPO|Draco|AEK-973)\\w*",
-        "caliber": "Caliber762x39",
-        "or": [
-          {
-            "hasAncestor": "AssaultRifle"
+        "and": [
+          {"nameMatches": "\\b(AKM|AK-1|VPO-|Draco)\\w*"},
+          {     
+            "or": [
+              {
+                "caliber": "Caliber762x39"
+              },
+              {
+                "caliber": "Caliber366TKM"
+              }
+            ]
           },
           {
-            "hasAncestor": "AssaultCarbine"
+            "or": [
+              {
+                "hasAncestor": "AssaultRifle"
+              },
+              {
+                "hasAncestor": "AssaultCarbine"
+              }
+            ]
           }
         ]
       },
@@ -197,9 +212,7 @@
       "comment": "Group for AK platform weapons",
       "conditions": {
         "and": [
-          {
-            "nameMatches": "\\b(AK|Draco|RAK74-P|AKS-74|AKS-74U|AEK-|AN-94)\\w*"
-          },
+          {"nameMatches": "\\b(AK|Draco|RAK74-P|AKS-74|AKS-74U|AEK-|AN-94)\\w*"},
           {
             "or": [
               {

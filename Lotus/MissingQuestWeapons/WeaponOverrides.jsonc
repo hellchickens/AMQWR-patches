@@ -10,7 +10,23 @@
     "6410733d5dd49d77bd07847e": "russian_ar",
     "643ea5b23db6f9f57107d9fd": "russian_ar",
     "620109578d82e67e7911abf2": "russian_smg_pistol",
-    "57f4c844245977379d5c14d1": "russian_smg_pistol"
+    "57f4c844245977379d5c14d1": "russian_smg_pistol",
+    "59e6152586f77473dc057aa1": "russian_ar",
+    "59e6687d86f77411d949b251": "russian_ar",
+    "5beed0f50db834001c062b12": "russian_ar",
+    "644674a13d52156624001fbc": "russian_ar",
+    "651450ce0e00edc794068371": "russian_ar",
+    "628b5638ad252a16da6dd245": "russian_ar",
+    "628b9c37a733087d0d7fe84b": "russian_ar",
+    "689166b6c2d6fa42e7044756": "russian_ar",
+    "68dec580d8cef922540a65c6": "russian_ar",
+    "68e1040726e57f736103f027": "russian_ar",
+    "6871284e9a353bb50606f3ed": "russian_ar",
+    "645e0c6b3b381ede770e1cc9": "russian_ar",
+    "69b5c78205424d948b96044a": "russian_ar",
+    "66e88596febdcf9daade16a8": "russian_ar"
+
+
   },
   "customTypeRules": [
     {
@@ -27,10 +43,10 @@
         "not": {
           "or": [
             {
-              "nameMatches": "(\\b(SR-|MCX|ACR)\\w*)"
+              "nameMatches": "(\\b(SR-|MCX|ACR|Kalashnikov|AK-)\\w*)"
             },
             {
-              "descriptionMatches": "(\\b(SR-|MCX|ACR)\\w*)"
+              "descriptionMatches": "(\\b(SR-|MCX|ACR|Kalashnikov|AK-)\\w*)"
             }
           ]
         }
@@ -268,10 +284,10 @@
           {
             "or": [
               {
-                "nameMatches": "AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-101|AKM|AK-1|AK-74|AKS-74U|SAG AK-545|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev"
+                "nameMatches": "\\b(AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-|AKM|AK-1|AK-74|AKS-74U|SAG AK-545|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev|RPK-16|SR-3M|zastava|saiga|VPO-136|VPO-209|Simonov|Konstantinov)\\w*"
               },
               {
-                "descriptionMatches": "AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-101|AKM|AK-1|AK-74|AKS-74U|SAG AK-545|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev"
+                "descriptionMatches": "\\b(AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-|AKM|AK-1|AK-74|AKS-74U|SAG AK-545|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev|RPK-16|SR-3M|zastava|saiga|VPO-136|VPO-209|Simonov|Konstantinov)\\w*"
               }
             ]
           },
@@ -525,7 +541,7 @@
     {
       "comment": "Group for AK-74 series weapons",
       "conditions": {
-        "nameMatches": "\\b(AK-74)\\w*",
+        "nameMatches": "\\b(AK-74|AK-545)\\w*",
         "or": [
           {
             "hasAncestor": "AssaultRifle"

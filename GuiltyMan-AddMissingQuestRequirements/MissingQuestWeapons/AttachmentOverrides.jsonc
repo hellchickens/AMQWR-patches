@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "overrideBehaviour": 1,
+  "overrideBehaviour": 0,
 
   // Manual attachment type overrides: attachment ID → comma-separated type names.
   // When set, auto-detection by rule chain is bypassed for that item.
@@ -19,46 +19,33 @@
   // and "Prototype"/"Customized" markers are intentionally excluded — those distinguish
   // functionally different items and must not be aliased together.
   "aliasNameStripWords": [
+    "(FDE)",
+    "(Black)",
+    "(Tan)",
+    "(Plum)",
+    "(DDC)",
+    "(Coyote)",
+    "(Grey)",
+    "(White)",
+    "(Sand)",
+    "(Khaki)",
+    "(Red)"
   ],
   "customTypeRules": [
     {
-      "comment": "PSO-1 scopes",
-      "conditions": {
-        "nameMatches": "\\b(PSO-1)\\w*"
-      },
-      "type": "PSO-1"
-    },
-    {
-      "comment": "Schmidt & Bender Riflescopes",
-      "conditions": {
-        "nameMatches": "\\b(Schmidt & Bender)\\w*"
-      },
-      "type": "schmidt_n_bender_scopes"
-    },
-    {
-      "comment": "Group for 30mm riflescopes",
-      "conditions": {
-        "nameMatches": "\\b(30mm)\\w*",
-        "hasAncestor": "OpticScope"
-      },
-      "type": "30mm_scopes"
-    },
-    {
-      "comment": "group for all flashlights",
+      "comment": "group for all silencers/supressors",
       "conditions": {
         "or": [
               {
-                "nameMatches": "\\b(flashligh)\\w*"
+                "nameMatches": "\\b(silencer|supressor)\\w*"
               },
               {
-                "descriptionMatches": "\\b(flashligh)\\w*"
-              },
-              {
-                "hasAncestor": "Flashlight"
+                "hasAncestor": "Silencer"
               }
             ]
         },
-      "type": "all_flashlights"
+      "type": "all_silencers"
     }
+
   ]
 }

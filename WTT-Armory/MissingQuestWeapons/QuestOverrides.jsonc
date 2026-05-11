@@ -2,14 +2,12 @@
     "version": 2,
     "OverrideBehaviour": 1,
     "excludedQuests": [
-     //   "6769f36baded384a687d97a1", // Lotus: Old But Gold - Part 1
+       "6877096d5299037a1c4b7b2f", // Weapons Trial: Scavs
+       "68784cf8dbe00560604d51e1", // Weapons Trial: PMCs
+       "6879a0da60f8d8a90e632755" // Weapons Trial: Finale
 
     ],
     "Overrides": [
-    {
-        "id": "6879a0da60f8d8a90e632755", // Weapons Trial: Finale
-        "includedWeapons": [],
-        "expansionMode": "NoExpansion"
-    }
+
     ]
 }

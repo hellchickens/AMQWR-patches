@@ -8,7 +8,6 @@
         "6769e31511a1075e8bfc97b7", // Lotus: Tarkov Sweeper - Part 2
         "67d7ffac0a45f6fea894beb7", // Lotus: Tarkov Sweeper - Part 5
         "6747c1e4c6f655f7863b727f", // Lotus: Bandit Hunt - Mall Maniac
-        "6762566a03b27f2d68c35ddf", // Lotus: Bandit Hunt - Factory Maniac
         "6762474161ffeb3c022b9b69", // Lotus: Bandit Hunt - Deal To Make - Part 2
         "67625a4c9ac37a06ed638698", // Lotus: Bandit Hunt - Cold Case - Part 2
         "677eed2aa7eeba8a46e225c3", // Lotus: Ideal For Someone With Taste - Part 7
@@ -37,6 +36,7 @@
     "Overrides": [
     {
         "id": "67ea813bd8d2dc676746f53e", // Lotus: Back On Track
+        "expansionMode": 2,
         "includedWeapons": ["BoltActionSniperRifle","MarksmanRifle"]
     },
     {
@@ -46,19 +46,22 @@
     },
     {
         "id": "674758ea142f52a016ecd92d", // Lotus: Light Of The Lotus - Part 2
+        "expansionMode": 0,
         "includedWeapons": ["AK"]
     },
     {
         "id": "6747b568ffb78dbbb8a7968d", // Lotus: Light Of The Lotus - Part 17
+        "expansionMode": 1,
         "includedWeapons": ["HK"]
     },
     {
         "id": "6747b6d1b00b3bfcb6b02f94", // Lotus: Light Of The Lotus - Part 19
-        "includedWeapons": ["SR-25_like"],
-        "expansionMode": 2
+        "includedWeapons": ["SR-25_like","5a367e5dc4a282000e49738f"],
+        "expansionMode": 1
     },
     {
         "id": "67966e33a1a7e9077af54709", // Lotus: Throwing Out The Bait
+        "expansionMode": 2,
         "includedWeapons": ["cal_9x39"]
     },
     {
@@ -75,21 +78,25 @@
     },
     {
         "id": "66c3fa32b966223ebb542e27", // Lotus: PMC Training - Marksmanship - Part 3
+        "expansionMode": 2,
         "includedWeapons": ["MarksmanRifle"]
     },
     {
         "id": "66c404ba2bd9c56b380a89d7", // Lotus: PMC Training - Marksmanship - Part 4
         "conditions": ["66c404ba5cbd8135838bba10"],
+        "expansionMode": 2,
         "includedWeapons": ["MarksmanRifle"]
     },
     {
         "id": "66c404ba2bd9c56b380a89d7", // Lotus: PMC Training - Marksmanship - Part 4
         "conditions": ["66c404ba8eaf6d1c3fb36ef6"],
+        "expansionMode": 2,
         "includedWeapons": ["BoltActionSniperRifle"]
     },
     {
         "id": "66c404ba2bd9c56b380a89d7", // Lotus: PMC Training - Marksmanship - Part 4
         "conditions": ["66c404ba4b9d5eb6d35fb944"],
+        "expansionMode": 2,
         "includedWeapons": ["BA_MR_762x54R"]
     },
     {
@@ -107,6 +114,7 @@
     {
         "id": "66c24845a671c1a1aa170372", // Lotus: PMC Training - Infantry - Part 4
         "conditions": ["66c2488b00349f29537663c8"],
+        "expansionMode": 2,
         "includedWeapons": ["cal_762x39"]
     },
     {
@@ -121,15 +129,18 @@
     },
     {
         "id": "6747bfd667581ad41fc4a9de", // Lotus: Okhotnik
+        "expansionMode": 2,
         "includedWeapons": ["Shotgun","BoltActionSniperRifle"]
     },
     {
         "id": "676b0de9ab6151bd15ce350e", // Lotus: Dangerous Tools
+        "conditions": ["676b0e66718f016e0017f21c"],
         "includedWeapons": ["AR-15"],
         "expansionMode": 2
     },
     {
         "id": "6747c136681e886c4f32ec2d", // Lotus: Goddamn Traitor
+        "expansionMode": 2,
         "includedWeapons": ["AssaultRifle"],
         "excludedWeapons": ["russian_ar","Pistol","5bf3e0490db83400196199af"]
     },
@@ -140,15 +151,28 @@
     },
     {
         "id": "6747c0991fa4b29ab5692551", // Lotus: Bandit Hunt - Imports
+        "expansionMode": 0,
         "includedWeapons": ["AK"]
     },
     {
+        "id": "6762566a03b27f2d68c35ddf", // Lotus: Bandit Hunt - Factory Maniac
+        "expansionMode": 2,
+        "includedWeapons": ["AKS-74U"]
+    },
+    {
         "id": "674882b91e3043f208409ba5", // Lotus: One Shot, One Kill
+        "expansionMode": 2,
         "includedWeapons": ["cal_338"]
     },
     {
+        "id": "675184a3baf92aa021b4e0ad", // Lotus: Ideal For Someone With Taste - Part 1
+        "expansionMode": 2,
+        "modsExpansionMode": 2,
+        "includedMods": ["all_silencers"]
+    },
+    {
         "id": "67518cbcb6c904e276ea22cb", // Lotus: Ideal For Someone With Taste - Part 2
-        "conditions": ["67518dd72d114057705a3d79"],
+        "expansionMode": 2,
         "includedWeapons": ["m700"]
     },
     {
@@ -162,21 +186,18 @@
         "expansionMode": 2
     },
     {
-        "id": "67518cbcb6c904e276ea22cb", // Lotus: Ideal For Someone With Taste - Part 2
-        "conditions": ["67518d7d433c688fdcb5cc17"],
-        "includedWeapons": ["m700"]
-    },
-    {
         "id": "675192a9ccd06a5a07e78922", // Lotus: Ideal For Someone With Taste - Part 4
         "includedWeapons": ["VSS","SVD"],
         "expansionMode": 2
     },
     {
         "id": "67519b5f3de90180bd0768a4", // Lotus: Ideal For Someone With Taste - Part 5
+        "expansionMode": 2,
         "includedWeapons": ["AKM"]
     },
     {
         "id": "675356e57d04aa9325c82e00", // Lotus: Ideal For Someone With Taste - Part 6
+        "expansionMode": 2,
         "includedWeapons": ["mcx_spear"]
     },
     {
@@ -206,11 +227,13 @@
     },
     {
         "id": "6747c36d4e805e1b7f6387b5", // Lotus: Checkmate - Part 8
+        "conditions": ["6747c37e4fba429dcd10c8a0"],
         "includedWeapons": ["AK"],
-        "expansionMode": 2
+        "expansionMode": 0
     },
     {
         "id": "67486b938b89470d9673a492", // Lotus: Urban Sniper
+        "expansionMode": 1,
         "includedWeapons": ["BoltActionSniperRifle","MarksmanRifle"]
     },
     {
@@ -225,8 +248,11 @@
     },
     {
         "id": "6748690cb0fff3f2a5ba3d47", // Lotus: Eastern Reliability - Part 4
+        "expansionMode": 2,
         "includedWeapons": ["AKM"],
-        "expansionMode": 2
+        "modsExpansionMode": 2,
+        "includedMods": []
+
     },
     {
         "id": "67486a921ef237f01abfd45f", // Lotus: Eastern Reliability - Part 8
@@ -235,6 +261,7 @@
     },
     {
         "id": "67ee61bb0084128bf23f5477", // Lotus: Friendly Fire
+        "expansionMode": 2,
         "includedWeapons": ["AssaultRifle","AssaultCarbine","Smg","Pistol","MarksmanRifle","BoltActionSniperRifle","MachineGun","Shotgun"],
         "excludedWeapons": ["russian_ar","BA_MR_762x54R","VSS","russian_smg_pistol","russian_shotgun","russian_mg","588892092459774ac91d4b11","5df24cf80dee1b22f862e9bc","5c501a4d2e221602b412b540","5de652c31b7e3716273428be"]
     },
@@ -252,7 +279,13 @@
     },
     {
         "id": "68a324f0e5c58491cf1cc17e", // Lotus: Expert Of Assault Rifles - Part 1 --- mdr | aug/g36
-        "conditions": ["68a3412b17b2f3c601f6f2ce","68a3413f0ea23979f767e267"],
+        "conditions": ["68a3412b17b2f3c601f6f2ce"],
+        "includedWeapons": [],
+        "expansionMode": 2
+    },
+    {
+        "id": "68a324f0e5c58491cf1cc17e", // Lotus: Expert Of Assault Rifles - Part 1 --- mdr | aug/g36
+        "conditions": ["68a3413f0ea23979f767e267"],
         "includedWeapons": [],
         "expansionMode": 2
     },
@@ -400,7 +433,13 @@
         "id": "68c084031fd16ee291638622", // Lotus: Light's Out
         "conditions": ["68c0863a9d3578d974db2119"],
         "includedWeapons": ["cal_9x39","cal_762x35"],
-        "expansionMode": 2
+        "expansionMode": 1
+    },
+    {
+        "id": "68c084031fd16ee291638622", // Lotus: Light's Out
+        "conditions": ["68c0876c991d4cc5c03e8dcc"],
+        "modsExpansionMode": 2,
+        "excludedMods": ["all_flashlights"]
     },
     {
         "id": "6747c298d1c2a3d2091dbe7d", // Lotus: Like In Old Times
