@@ -126,7 +126,12 @@
   "canBeUsedAs": {
     "5c46fbd72e2216398b5a8c9c": ["SVD"],
     "5ac4cd105acfc40016339859": ["68e1040726e57f736103f02c"], // ak-74m
-    "5ac66d9b5acfc4001633997a": ["68d96442d7aac8a7a904db00","693c5deb2e28b0b1e304ad40","693db6b02539fba19b0c1390"] // ak-105
+    "5ac66d9b5acfc4001633997a": ["68d96442d7aac8a7a904db00","693c5deb2e28b0b1e304ad40","693db6b02539fba19b0c1390"], // ak-105
+    "57c44b372459772d2b39b8ce": ["6871284e9a353bb50606f3ed"], // val
+    "587e02ff24597743df3deaeb": ["574d967124597745970e7c94","69b5c78205424d948b96044a"], // sks
+    "5df8ce05b11454561e39243b": ["683d23831960b7bac66f4f05","6932abeb5403890d0c09c926","6831efcaf17211a895bbccc4"], // sr-25
+    "5cadc190ae921500103bb3b6": ["6868d249cdee524f8c0ba45f"] // beretta m9a3 - 92fs
+
   },
   "aliasNameStripWords": [],
   "aliasNameExcludeWeapons": [

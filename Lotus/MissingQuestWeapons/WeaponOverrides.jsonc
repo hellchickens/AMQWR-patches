@@ -25,8 +25,6 @@
     "645e0c6b3b381ede770e1cc9": "russian_ar",
     "69b5c78205424d948b96044a": "russian_ar",
     "66e88596febdcf9daade16a8": "russian_ar"
-
-
   },
   "customTypeRules": [
     {
@@ -685,10 +683,33 @@
     {
       "comment": "Group for HK-G28 similar variants",
       "conditions": {
-        "nameMatches": "\\b(G28|HK 417)\\w*",
+        "nameMatches": "\\b(G28|HK417)\\w*",
         "hasAncestor": "MarksmanRifle"
       },
       "type": "HK-G28_like"
+    },
+    {
+      "comment": "Group for glock postols",
+      "conditions": {
+        "nameMatches": "\\b(glock)\\w*",
+        "hasAncestor": "Pistol"
+      },
+      "type": "glock_pistols"
+    },
+    {
+      "comment": "Group for Colt M1911 postols",
+      "conditions": {
+        "or": [
+          {
+            "nameMatches": "\\b(M1911)\\w*"
+          },
+          {
+            "descriptionMatches": "\\b(M1911)\\w*"
+          }
+        ],       
+        "hasAncestor": "Pistol"
+      },
+      "type": "1911_pistols"
     }
   ]
 }

@@ -24,7 +24,6 @@
         "68a32567cf5a19b50bd7d72e", // Lotus: Expert Of Carbines
         "68a3257525fac53439e9a7b3", // Lotus: Expert Of Submachineguns - Part 1
         "68a32583e08103bac7759f5c", // Lotus: Expert Of Submachineguns - Part 2
-        "68a32591c51bdf186d33dad2", // Lotus: Expert Of Pistols - Part 1
         "68a325a301d14e90ad47c1d8", // Lotus: Expert Of Pistols - Part 2
         "68a3252fd029cf07bf9561d2", // Lotus: Expert Of Pistols - Part 3
         "68a3251e545f5a09d4d6000b", // Lotus: Expert Of Shotguns - Part 1
@@ -474,6 +473,18 @@
         "expansionMode": 2,
         "modsExpansionMode": 2,
         "includedMods": ["30mm_scopes"]
+    },
+    {
+        "id": "68a32591c51bdf186d33dad2", // Lotus: Expert Of Pistols - Part 1 -- glock
+        "conditions": ["68a33ea74c7afa14d063f62c"],
+        "includedWeapons": ["glock_pistols"],
+        "expansionMode": 2
+    },
+    {
+        "id": "68a32591c51bdf186d33dad2", // Lotus: Expert Of Pistols - Part 1 -- 1911
+        "conditions": ["68a33f172f6e90ab2beba4af"],
+        "includedWeapons": ["1911_pistols"],
+        "expansionMode": 2
     }
     ]
 }
