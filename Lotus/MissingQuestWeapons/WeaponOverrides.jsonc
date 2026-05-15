@@ -161,34 +161,6 @@
       "type": "smg_9x19PARA"
     },
     {
-      "comment": "Group for Remington M700-like weapons",
-      "conditions": {
-        "and": [
-          {
-            "or": [
-              {
-                "nameMatches": "\\b(m700|model 700)\\w*"
-              },
-              {
-                "descriptionMatches": "\\b(m700|model 700)\\w*"
-              }
-            ]
-          },
-          {
-            "or": [
-              {
-                "hasAncestor": "BoltActionSniperRifle"
-              },
-              {
-                "hasAncestor": "SniperRifle"
-              }
-            ]
-          }
-        ]
-      },
-      "type": "m700"
-    },
-    {
       "comment": "Group for VSS weapons",
       "conditions": {
         "nameMatches": "\\b(VSS|Vintorez)\\w*",
@@ -212,10 +184,10 @@
       "conditions": {
         "or": [
           {
-            "nameMatches": "\\b(spear)\\w*"
+            "nameMatches": "\\b(MCX SPEAR|MCX-SPEAR)\\w*"
           },
           {
-            "descriptionMatches": "\\b(spear)\\w*"
+            "descriptionMatches": "\\b(MCX SPEAR|MCX-SPEAR)\\w*"
           }
         ]
       },
@@ -226,10 +198,10 @@
       "conditions": {
         "or": [
           {
-            "nameMatches": "\\b(mcx|virtus)\\w*"
+            "nameMatches": "\\b(mcx|virtus|MCX-)\\w*"
           },
           {
-            "descriptionMatches": "\\b(mcx|virtus)\\w*"
+            "descriptionMatches": "\\b(mcx|virtus|MCX-)\\w*"
           }
         ]
       },
@@ -282,10 +254,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-|AKM|AK-1|AK-74|AKS-74U|SAG AK-545|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev|RPK-16|SR-3M|zastava|saiga|VPO-136|VPO-209|Simonov|Konstantinov)\\w*"
+                "nameMatches": "\\b(AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-|AKM|AK-1|AK-74|AKS-74U|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev|RPK-16|SR-3M|zastava|saiga|VPO-136|VPO-209|Simonov|Konstantinov)\\w*"
               },
               {
-                "descriptionMatches": "\\b(AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-|AKM|AK-1|AK-74|AKS-74U|SAG AK-545|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev|RPK-16|SR-3M|zastava|saiga|VPO-136|VPO-209|Simonov|Konstantinov)\\w*"
+                "descriptionMatches": "\\b(AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-|AKM|AK-1|AK-74|AKS-74U|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev|RPK-16|SR-3M|zastava|saiga|VPO-136|VPO-209|Simonov|Konstantinov)\\w*"
               }
             ]
           },
@@ -303,10 +275,10 @@
             "not": {
               "or": [
                 {
-                  "nameMatches": "(\\b(m1a|m4a|iwi|acr|mcx|cmmg|iso|hk|arx|ak5d|ak5c|zlr|echoes|pdw|RD-704|Velociraptor|Bofors)\\w*)"
+                  "nameMatches": "(\\b(m1a|m4a|iwi|acr|mcx|cmmg|iso|hk|arx|ak5d|ak5c|zlr|echoes|pdw|RD-704|Velociraptor|Bofors|ak-545)\\w*)"
                 },
                 {
-                  "descriptionMatches": "(\\b(m1a|m4a|iwi|acr|mcx|cmmg|iso|hk|arx|ak5d|ak5c|zlr|echoes|pdw|RD-704|Velociraptor|Bofors)\\w*)"
+                  "descriptionMatches": "(\\b(m1a|m4a|iwi|acr|mcx|cmmg|iso|hk|arx|ak5d|ak5c|zlr|echoes|pdw|RD-704|Velociraptor|Bofors|sag|ak-545)\\w*)"
                 }
               ]
             }
@@ -539,13 +511,25 @@
     {
       "comment": "Group for AK-74 series weapons",
       "conditions": {
-        "nameMatches": "\\b(AK-74|AK-545)\\w*",
-        "or": [
-          {
-            "hasAncestor": "AssaultRifle"
+        "and": [ {
+            "or": [
+                {
+                  "hasAncestor": "AssaultRifle"
+                },
+                {
+                  "hasAncestor": "AssaultCarbine"
+                }
+              ]
           },
           {
-            "hasAncestor": "AssaultCarbine"
+            "or": [
+              {
+                "nameMatches": "\\b(AK-74|AK-545)\\w*"
+              },
+              {
+                "descriptionMatches": "\\b(AK-74|SAG AK-545)\\w*"
+              }
+            ] 
           }
         ]
       },

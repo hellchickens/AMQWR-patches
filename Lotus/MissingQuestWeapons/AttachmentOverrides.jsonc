@@ -46,19 +46,58 @@
     {
       "comment": "group for all flashlights",
       "conditions": {
-        "or": [
+        "and": [
+          {
+            "or": [
               {
                 "nameMatches": "\\b(flashligh)\\w*"
               },
               {
                 "descriptionMatches": "\\b(flashligh)\\w*"
-              },
-              {
-                "hasAncestor": "Flashlight"
               }
             ]
-        },
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "TacticalCombo"
+              },
+              {
+                "hasAncestor": "Flashlight*"
+              }
+            ]
+          }
+        ]
+      },
       "type": "all_flashlights"
+    },
+    {
+      "comment": "group for all EOTech  scopes",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "\\b(EOTech)\\w*"
+              },
+              {
+                "descriptionMatches": "\\b(EOTech)\\w*"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "Collimator"
+              },
+              {
+                "hasAncestor": "OpticScope"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "all_eotech"
     }
   ]
 }

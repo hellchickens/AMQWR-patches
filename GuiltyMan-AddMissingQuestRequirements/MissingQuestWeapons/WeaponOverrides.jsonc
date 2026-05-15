@@ -59,8 +59,8 @@
     "59e6152586f77473dc057aa1": "AssaultCarbine", // Molot Arms VPO-136 Vepr-KM 7.62x39 carbine
     "59e6687d86f77411d949b251": "AssaultCarbine", // Molot Arms VPO-209 .366 TKM carbine
     "020020aacbbcfb0000000000": "AssaultRifle,MarksmanRifle", // Rattle Back MCW 5.56x45 marksman rifle
-    "628b5638ad252a16da6dd245": "AssaultRifle,AssaultCarbine", // SAG AK-545 5.45x39 carbine
-    "628b9c37a733087d0d7fe84b": "AssaultRifle,AssaultCarbine", // SAG AK-545 Short 5.45x39 carbine
+    "628b5638ad252a16da6dd245": "AssaultRifle,AssaultCarbine,AK,AK-74", // SAG AK-545 5.45x39 carbine
+    "628b9c37a733087d0d7fe84b": "AssaultRifle,AssaultCarbine,AK,AK-74", // SAG AK-545 Short 5.45x39 carbine
     "8d59d8b10a4c2e85b871c317": "AssaultRifle,MarksmanRifle", // SIG MCX SPEAR 7.62x51 assault rifle
     "65290f395ae2ae97b80fdf2d": "AssaultRifle,MarksmanRifle", // SIG MCX-SPEAR 6.8x51 assault rifle
     "69d96cb2c67105f11e72c0ae": "AssaultRifle,MarksmanRifle", // Salco Industries: SCAR-68 6.8x51 assault rifle
@@ -116,12 +116,19 @@
     "deee28079e76d537f532021c": "BoltActionSniperRifle,SniperRifle", // Surgeon Rifles 1581 XL action .338 LM bolt-action sniper rifle
     "1bf618e47cce6d69bec01e9f": "BoltActionSniperRifle,SniperRifle", // Surgeon Rifles 1581 XL action .338 Norma Magnum bolt-action sniper rifle
     "6925eae6b1f1b81dcf03db66": "BoltActionSniperRifle,SniperRifle", // Wren Metal Works Marlin .357
+    "69adc1296e219c567098c450": "BoltActionSniperRifle,SniperRifle", // Remington M754 7.62x54
     
     // revolvers
     "624c2e8614da335f1e034d8c": "Revolver,Pistol", // Chiappa Rhino 200DS 9x19 revolver
     "61a4c8884f95bc3b2c5dc96f": "Revolver,Pistol", // Chiappa Rhino 50DS .357 revolver
     "60db29ce99594040e04c4a27": "Revolver,Shotgun", // MTs-255-12 12ga shotgun
     "633ec7c2a6918cb895019c6c": "Revolver,Pistol" // RSh-12 12.7x55 revolver
+    
+    
+    
+    // custom types additions that for some reason can't be catched by regex
+
+
   },
   "canBeUsedAs": {
     "5c46fbd72e2216398b5a8c9c": ["SVD"],
@@ -130,7 +137,10 @@
     "57c44b372459772d2b39b8ce": ["6871284e9a353bb50606f3ed"], // val
     "587e02ff24597743df3deaeb": ["574d967124597745970e7c94","69b5c78205424d948b96044a"], // sks
     "5df8ce05b11454561e39243b": ["683d23831960b7bac66f4f05","6932abeb5403890d0c09c926","6831efcaf17211a895bbccc4"], // sr-25
-    "5cadc190ae921500103bb3b6": ["6868d249cdee524f8c0ba45f"] // beretta m9a3 - 92fs
+    "5cadc190ae921500103bb3b6": ["6868d249cdee524f8c0ba45f"], // beretta m9a3 - 92fs
+    "5fbcc1d9016cce60e8341ab3": ["683df636e1e3fa1bf165f7ed"], // mcx .300 + mcx multical
+    "5bfea6e90db834001b7347f3": ["68324e7849e4f772900f58e8","0af5f6a5aa9712e11c733fb9","69adc1296e219c567098c450"], // Remington Model 700
+    "69aef128af73d73b4e0ce546": ["020020aa14aa140000000000","69aef128af73d73b4e0ce546"] // Springfield Armory M14/M1A
 
   },
   "aliasNameStripWords": [],
@@ -138,8 +148,6 @@
     "MCW",
     "ISO",
     "Hemlock",
-    "700",
-    "M700",
     "SR-25",
     "Expedite",
     "Mk47",
@@ -174,7 +182,7 @@
       "comment": "Group for AKM like weapons",
       "conditions": {
         "and": [
-          {"nameMatches": "\\b(AKM|AK-1|VPO-|Draco)\\w*"},
+          {"nameMatches": "\\b(AKM|AK-10|VPO-|Draco)\\w*"},
           {     
             "or": [
               {
@@ -202,7 +210,7 @@
     {
       "comment": "Group for AKS-74U like weapons",
       "conditions": {
-        "nameMatches": "\\b(AKS-74U|SAG AK-545)\\w*"
+        "nameMatches": "\\b(AKS-74U)\\w*"
       },
       "type": "AKS-74U"
     },
@@ -268,7 +276,7 @@
     {
       "comment": "Group for AK-74 like weapons",
       "conditions": {
-        "nameMatches": "\\b(AK-74|AKS-74|SAG AK-545|Saiga SGL31|Saiga MK Ver. 030|AN-94|AEK-971)\\w*",
+        "nameMatches": "\\b(AK-74|AKS-74|AK-545|Saiga SGL31|Saiga MK Ver. 030|AN-94|AEK-971)\\w*",
         "or": [
           {
             "hasAncestor": "AssaultRifle"
@@ -356,6 +364,9 @@
               },
               {
                 "caliber": "Caliber22LR"
+              },
+              {
+                "caliber": "Caliber9x39"
               }
             ]
           },

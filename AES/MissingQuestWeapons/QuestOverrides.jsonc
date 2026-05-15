@@ -13,7 +13,7 @@
   {
       "id": "677fdcdca4df7500db1c7eb6", // Svetlana: AKS-U Mastery
       "includedWeapons": ["AKS-74U"],
-      "expansionMode": 0
+      "expansionMode": "NoExpansion"
   },
   {
       "id": "677fdce0d063b4d3a555643e", // Svetlana: For the Mother of Russia

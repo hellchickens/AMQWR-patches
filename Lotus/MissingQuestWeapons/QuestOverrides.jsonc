@@ -146,12 +146,12 @@
     {
         "id": "6747c182942fe0faa5478a5e", // Lotus: Bear Hunter
         "includedWeapons": ["AK"],
-        "expansionMode": "Auto"
+        "expansionMode": 2
     },
     {
         "id": "6747c0991fa4b29ab5692551", // Lotus: Bandit Hunt - Imports
-        "expansionMode": 0,
-        "includedWeapons": ["AK"]
+        "expansionMode": 2,
+        "includedWeapons": ["AK","67d0576f29f580ebc10efd08"]
     },
     {
         "id": "6762566a03b27f2d68c35ddf", // Lotus: Bandit Hunt - Factory Maniac
@@ -172,7 +172,7 @@
     {
         "id": "67518cbcb6c904e276ea22cb", // Lotus: Ideal For Someone With Taste - Part 2
         "expansionMode": 2,
-        "includedWeapons": ["m700"]
+        "includedWeapons": []
     },
     {
         "id": "67519005bdabf0213250f1dd", // Lotus: Ideal For Someone With Taste - Part 3
@@ -248,9 +248,7 @@
     {
         "id": "6748690cb0fff3f2a5ba3d47", // Lotus: Eastern Reliability - Part 4
         "expansionMode": 2,
-        "includedWeapons": ["AKM"],
-        "modsExpansionMode": 2,
-        "includedMods": []
+        "includedWeapons": ["AKM"]
 
     },
     {
@@ -269,7 +267,7 @@
         "includedWeapons": ["AK"],
         "modsExpansionMode": 2,
         "includedMods": ["PSO-1"],
-        "expansionMode": "Auto"
+        "expansionMode": 2
     },
     {
         "id": "68037d165a7e1349b4901c3b", // Lotus: The Arena Sniper
@@ -277,7 +275,7 @@
         "expansionMode": 2
     },
     {
-        "id": "68a324f0e5c58491cf1cc17e", // Lotus: Expert Of Assault Rifles - Part 1 --- mdr | aug/g36
+        "id": "68a324f0e5c58491cf1cc17e", // Lotus: Expert Of Assault Rifles - Part 1 --- mdr
         "conditions": ["68a3412b17b2f3c601f6f2ce"],
         "includedWeapons": [],
         "expansionMode": 2
@@ -355,7 +353,8 @@
     },
     {
         "id": "68a31c0682f6f122b650f97e", // Lotus: Expert Of Assault Rifles - Part 3
-        "conditions": ["68a342cbf7211c3f7c996750","68a342d767741a2ade695b6f","68a342e099698f4ce4a88d7f","68a342eb9fd4b979b6989a90"],
+        "conditions": ["68a342cbf7211c3f7c996750"],
+        "includedWeapons": ["mcx_spear"],
         "expansionMode": 2
     },
     {
@@ -367,7 +366,7 @@
     {
         "id": "68a317daa4acb2d09cc8822b", // Lotus: Expert Of Sniper Rifles
         "conditions": ["68a343305229d6b7e674748d"],
-        "includedWeapons": ["m700"],
+        "includedWeapons": [],
         "expansionMode": 2
     },
     {
