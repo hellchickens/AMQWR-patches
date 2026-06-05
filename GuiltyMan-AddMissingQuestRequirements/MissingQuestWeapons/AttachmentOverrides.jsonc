@@ -36,16 +36,33 @@
       "comment": "group for all silencers/supressors",
       "conditions": {
         "or": [
+          {     
+            "or": [
               {
                 "nameMatches": "\\b(silencer|supressor)\\w*"
+              },
+              {
+                "descriptionMatches": "\\b(silencer|supressor)\\w*"
               },
               {
                 "hasAncestor": "Silencer"
               }
             ]
-        },
+          },
+          {
+            "and": [
+              {
+                "descriptionMatches": "\\b(silencer|supressor|silenced)\\w*"
+              },
+              {
+                "hasAncestor": "Barrel"
+              }
+            ]
+          }
+        ]
+      },
       "type": "all_silencers"
-    }
-
+      }
   ]
 }
+

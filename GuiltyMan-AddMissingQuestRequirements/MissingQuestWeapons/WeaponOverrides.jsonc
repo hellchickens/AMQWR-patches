@@ -22,17 +22,17 @@
     "67b49e7335dec48e3e05e057": "ThrowWeap", // F-1 hand grenade (Reduced delay)
 
     // explosives
-    "69fe6849e4e15282c54fccf7": "GrenadeLauncher,ThrowWeap", // Diemaco M203 Grenade Launcher w/Chassis
-    "5d52cc5ba4b9367408500062": "GrenadeLauncher,ThrowWeap", // AGS-30 30x29mm automatic grenade launcher
-    "6275303a9f372d6ea97f9ec7": "GrenadeLauncher,ThrowWeap,Revolver", // Milkor M32A1 MSGL 40mm grenade launcher
-    "639af924d0446708ee62294e": "GrenadeLauncher,ThrowWeap", // FN40GL Mk2 grenade launcher
-    "639c3fbbd0446708ee622ee9": "GrenadeLauncher,ThrowWeap", // FN40GL Mk2 grenade launcher
-    "5e81ebcd8e146c7080625e15": "GrenadeLauncher,ThrowWeap", // FN40GL Mk2 40mm grenade launcher
-    "62e7e7bbe6da9612f743f1e0": "GrenadeLauncher,ThrowWeap", // GP-25 Kostyor 40mm underbarrel grenade launcher
-    "5648b62b4bdc2d9d488b4585": "GrenadeLauncher,ThrowWeap", // GP-34 40mm underbarrel grenade launcher
-    "6357c98711fb55120211f7e1": "GrenadeLauncher,ThrowWeap", // M203 40mm underbarrel grenade launcher
+    "69fe6849e4e15282c54fccf7": "GrenadeLauncher", // Diemaco M203 Grenade Launcher w/Chassis
+    "5d52cc5ba4b9367408500062": "GrenadeLauncher", // AGS-30 30x29mm automatic grenade launcher
+    "6275303a9f372d6ea97f9ec7": "GrenadeLauncher,Revolver", // Milkor M32A1 MSGL 40mm grenade launcher
+    "639af924d0446708ee62294e": "GrenadeLauncher", // FN40GL Mk2 grenade launcher
+    "639c3fbbd0446708ee622ee9": "GrenadeLauncher", // FN40GL Mk2 grenade launcher
+    "5e81ebcd8e146c7080625e15": "GrenadeLauncher", // FN40GL Mk2 40mm grenade launcher
+    "62e7e7bbe6da9612f743f1e0": "GrenadeLauncher", // GP-25 Kostyor 40mm underbarrel grenade launcher
+    "5648b62b4bdc2d9d488b4585": "GrenadeLauncher", // GP-34 40mm underbarrel grenade launcher
+    "6357c98711fb55120211f7e1": "GrenadeLauncher", // M203 40mm underbarrel grenade launcher
     "620109578d82e67e7911abf2": "GrenadeLauncher,Pistol", // ZiD SP-81 26x75 signal pistol
-    "676bf44c5539167c3603e869": "GrenadeLauncher,ThrowWeap", // ZiD SP-81 26x75 signal pistol
+    "676bf44c5539167c3603e869": "GrenadeLauncher", // RShG-2 72.5mm rocket launcher
     
     // assault carbines
     "6871284e9a353bb50606f3ed": "AssaultCarbine,AssaultRifle", // AS VAL MOD.4 9x39 special assault rifle
@@ -61,8 +61,8 @@
     "020020aacbbcfb0000000000": "AssaultRifle,MarksmanRifle", // Rattle Back MCW 5.56x45 marksman rifle
     "628b5638ad252a16da6dd245": "AssaultRifle,AssaultCarbine,AK,AK-74", // SAG AK-545 5.45x39 carbine
     "628b9c37a733087d0d7fe84b": "AssaultRifle,AssaultCarbine,AK,AK-74", // SAG AK-545 Short 5.45x39 carbine
-    "8d59d8b10a4c2e85b871c317": "AssaultRifle,MarksmanRifle", // SIG MCX SPEAR 7.62x51 assault rifle
-    "65290f395ae2ae97b80fdf2d": "AssaultRifle,MarksmanRifle", // SIG MCX-SPEAR 6.8x51 assault rifle
+    "8d59d8b10a4c2e85b871c317": "AssaultRifle,MarksmanRifle,mcx_spear", // SIG MCX SPEAR 7.62x51 assault rifle
+    "65290f395ae2ae97b80fdf2d": "AssaultRifle,MarksmanRifle,mcx_spear", // SIG MCX-SPEAR 6.8x51 assault rifle
     "69d96cb2c67105f11e72c0ae": "AssaultRifle,MarksmanRifle", // Salco Industries: SCAR-68 6.8x51 assault rifle
     "020020308308000000000000": "AssaultRifle,Smg", // TDI KRISS Vector Gen.2 7.62x51 assault rifle
     
@@ -85,38 +85,9 @@
     "61f7c9e189e6fb1a5e3ea78d": "BoltActionSniperRifle,SniperRifle,Shotgun,PumpActionShotgun", // MP-18 7.62x54R single-shot rifle (god gives his toughest types to his strongest weapons)
     
     // sniper rifles
-    "6917d89b54f5f109c106c1ee": "BoltActionSniperRifle,SniperRifle", // Accuracy International AT-XC 7.62x51mm Sniper Rifle
-    "691897048568323f8204ab0d": "BoltActionSniperRifle,SniperRifle", // Accuracy International AT-XC 7.62x51mm Sniper Rifle Anodized Green
-    "69187ee78568323f8204aaf9": "BoltActionSniperRifle,SniperRifle", // Accuracy International AT-XC 7.62x51mm Sniper Rifle Anodized Red
-    "69187ee78568323f8204aaf3": "BoltActionSniperRifle,SniperRifle", // Accuracy International AT-XC 7.62x51mm Sniper Rifle FDE
-    "68a3836826dffa87b5767c04": "BoltActionSniperRifle,SniperRifle", // Accuracy International AXMC .300 WM bolt-action sniper rifle
-    "627e14b21713922ded6f2c15": "BoltActionSniperRifle,SniperRifle", // Accuracy International AXMC .338 LM bolt-action sniper rifle
-    "6928b6bf523e7af9a6ed2cec": "BoltActionSniperRifle,SniperRifle", // B&T SPR300 .300 BLK bolt-action sniper rifle
-    "68fd4feab87d77a5aaf6bf64": "BoltActionSniperRifle,SniperRifle", // CheyTac M200 Intervention .408 CT bolt-action sniper rifle
-    "68fd7d14ff5a09197b5ab82a": "BoltActionSniperRifle,SniperRifle", // CheyTac M200 Intervention .408 CT bolt-action sniper rifle (Camo)
-    "68fd7a61f2b8d96bb3119b19": "BoltActionSniperRifle,SniperRifle", // CheyTac M200 Intervention .408 CT bolt-action sniper rifle (FDE)
-    "6924c2f800ff4b8d9d689a5c": "BoltActionSniperRifle,SniperRifle", // Henry Big Boy Steel .357 lever-action rifle
-    "020020ab50ab500000000000": "BoltActionSniperRifle,SniperRifle", // KATT AMR .50 BMG bolt-action sniper rifle
-    "588892092459774ac91d4b11": "BoltActionSniperRifle,SniperRifle", // Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle
-    "02002010ab10ab0000000000": "BoltActionSniperRifle,SniperRifle", // Longbow 7.62x39 bolt-action rifle
-    "69417a3f787395b8cc0ab13e": "BoltActionSniperRifle,SniperRifle", // Marlin M1984 Dark-series .44 Magnum lever-action rifle
-    "67c6de3ce39861860909e8e5": "BoltActionSniperRifle,SniperRifle", // Marlin MXLR .308 ME lever-action rifle
-    "69ea94d9735c0ab5f2bbee67": "BoltActionSniperRifle,SniperRifle", // McMillan CS5 Stubby Receiver
-    "5de652c31b7e3716273428be": "BoltActionSniperRifle,SniperRifle", // Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle
-    "5bfd297f0db834001a669119": "BoltActionSniperRifle,SniperRifle", // Mosin 7.62x54R bolt-action rifle (Infantry)
-    "5ae08f0a5acfc408fb1398a1": "BoltActionSniperRifle,SniperRifle", // Mosin 7.62x54R bolt-action rifle (Sniper)
-    "5df24cf80dee1b22f862e9bc": "BoltActionSniperRifle,SniperRifle", // ORSIS T-5000M 7.62x51 bolt-action sniper rifle
-    "684e32eaec9f5eb3cacc7ca7": "BoltActionSniperRifle,SniperRifle", // Remington MSR .300 WM bolt-action sniper rifle
-    "0af5f6a5aa9712e11c733fb9": "BoltActionSniperRifle,SniperRifle", // Remington Model 700 .277 Sig Fury bolt-action sniper rifle
-    "68324e7849e4f772900f58e8": "BoltActionSniperRifle,SniperRifle", // Remington Model 700 6.5x48 bolt-action sniper rifle
-    "5bfea6e90db834001b7347f3": "BoltActionSniperRifle,SniperRifle", // Remington Model 700 7.62x51 bolt-action sniper rifle
-    "55801eed4bdc2d89578b4588": "BoltActionSniperRifle,SniperRifle", // SV-98 7.62x54R bolt-action sniper rifle
-    "69236a0b2d1260dbca41ef92": "BoltActionSniperRifle,SniperRifle", // SV-98M 7.62x54R bolt-action sniper rifle
-    "673cab3e03c6a20581028bc1": "BoltActionSniperRifle,SniperRifle", // Sako TRG M10 .338 LM bolt-action sniper rifle
-    "deee28079e76d537f532021c": "BoltActionSniperRifle,SniperRifle", // Surgeon Rifles 1581 XL action .338 LM bolt-action sniper rifle
-    "1bf618e47cce6d69bec01e9f": "BoltActionSniperRifle,SniperRifle", // Surgeon Rifles 1581 XL action .338 Norma Magnum bolt-action sniper rifle
-    "6925eae6b1f1b81dcf03db66": "BoltActionSniperRifle,SniperRifle", // Wren Metal Works Marlin .357
-    "69adc1296e219c567098c450": "BoltActionSniperRifle,SniperRifle", // Remington M754 7.62x54
+    "68a3836826dffa87b5767c04": "BoltActionSniperRifle,AXMC", // Accuracy International AXMC .300 WM bolt-action sniper rifle
+
+
     
     // revolvers
     "624c2e8614da335f1e034d8c": "Revolver,Pistol", // Chiappa Rhino 200DS 9x19 revolver
@@ -139,8 +110,9 @@
     "5df8ce05b11454561e39243b": ["683d23831960b7bac66f4f05","6932abeb5403890d0c09c926","6831efcaf17211a895bbccc4"], // sr-25
     "5cadc190ae921500103bb3b6": ["6868d249cdee524f8c0ba45f"], // beretta m9a3 - 92fs
     "5fbcc1d9016cce60e8341ab3": ["683df636e1e3fa1bf165f7ed"], // mcx .300 + mcx multical
-    "5bfea6e90db834001b7347f3": ["68324e7849e4f772900f58e8","0af5f6a5aa9712e11c733fb9","69adc1296e219c567098c450"], // Remington Model 700
-    "69aef128af73d73b4e0ce546": ["020020aa14aa140000000000","69aef128af73d73b4e0ce546"] // Springfield Armory M14/M1A
+    // "5bfea6e90db834001b7347f3": ["68324e7849e4f772900f58e8","0af5f6a5aa9712e11c733fb9","69adc1296e219c567098c450"], // Remington Model 700
+    "5aafa857e5b5b00018480968": ["020020aa14aa140000000000","69aef128af73d73b4e0ce546"], // Springfield Armory M14/M1A
+    "5e81ebcd8e146c7080625e15": ["639af924d0446708ee62294e","639c3fbbd0446708ee622ee9"]
 
   },
   "aliasNameStripWords": [],
@@ -205,7 +177,8 @@
           }
         ]
       },
-      "type": "AKM"
+      "type": "AKM",
+      "applyToManualOverrides": true
     },
     {
       "comment": "Group for AKS-74U like weapons",
@@ -219,7 +192,25 @@
       "conditions": {
         "nameMatches": "\\b(AKS-74UB)\\w*"
       },
-      "type": "AKS-74UB"
+      "type": "AKS-74UB",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for M700 like weapons",
+      "conditions": {
+        "nameMatches": "\\b(m700|m754)\\w*",
+        "hasAncestor": "BoltActionSniperRifle"
+      },
+      "type": "m700",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for SKS like weapons",
+      "conditions": {
+        "nameMatches": "\\b(sks)\\w*"
+      },
+      "type": "sks",
+      "applyToManualOverrides": true
     },
     {
       "comment": "Group for AK platform weapons",
@@ -271,7 +262,8 @@
           }
         ]
       },
-      "type": "AK"
+      "type": "AK",
+      "applyToManualOverrides": true
     },
     {
       "comment": "Group for AK-74 like weapons",
@@ -289,7 +281,8 @@
           }
         ]
       },
-      "type": "AK-74"
+      "type": "AK-74",
+      "applyToManualOverrides": true
     },
     {
       "comment": "Group for AR-15 like weapons",
@@ -335,7 +328,8 @@
           }
         ]
       },
-      "type": "AR-15"
+      "type": "AR-15",
+      "applyToManualOverrides": true
     },
     {
       "comment": "Group for M4A1 like weapons",
@@ -344,10 +338,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(M4A|Wages)\\w*"
+                "nameMatches": "\\b(M4A|Wages|JAK)\\w*"
               },
               {
-                "descriptionMatches": "\\b(M4A|Wages)\\w*"
+                "descriptionMatches": "\\b(M4A|Wages|JAK)\\w*"
               }
             ]
           },
@@ -405,7 +399,8 @@
         "nameMatches": "\\b(MP-)\\w*",
         "hasAncestor": "Shotgun"
       },
-      "type": "MP-shotguns"
+      "type": "MP-shotguns",
+      "applyToManualOverrides": true
     },
     {
       "comment": "Group for SVD like weapons",
@@ -436,7 +431,8 @@
           }
         ]
       },
-      "type": "SVD"
+      "type": "SVD",
+      "applyToManualOverrides": true
     },
     {
       "comment": "Group for explosive like weapons",
@@ -527,7 +523,8 @@
           "nameMatches": "(\\b(.300|Winchester)\\w*)"
         }
       },
-      "type": "cal_338"
+      "type": "cal_338",
+      "applyToManualOverrides": true
     },
     {
       "comment": "Group for cal_762x25TT chambered weapons",

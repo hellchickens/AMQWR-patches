@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "OverrideBehaviour": "MERGE",
+  "excludedQuests": [],
+  "Overrides": [
+  {
+      "id": "69b30ec8e0f88a8ea828ae3e", // Oh Canada
+      "conditions": ["69ffb088c535c2b1fa4fcd1e"],
+      "includedWeapons": ["cal_22lr"],
+      "expansionMode": 2
+    },
+    {
+        "id": "69b30ec8e0f88a8ea828ae3e", // Oh Canada
+        "conditions": ["69ffb03365396f9e274fcd1d"],
+      "includedWeapons": ["sks"],
+      "expansionMode": 2
+  }
+  ]
+}
