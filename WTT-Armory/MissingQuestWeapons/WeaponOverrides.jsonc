@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "aliasNameStripWords": [],
+  "aliasNameExcludeWeapons": [],
+  "overrideBehaviour": "MERGE",
+  "canBeUsedAs": {},
+  "manualTypeOverrides": {
+
+  },
+  "customTypeRules": [
+   ]
+}

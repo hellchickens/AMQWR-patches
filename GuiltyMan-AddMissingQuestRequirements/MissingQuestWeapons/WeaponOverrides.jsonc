@@ -1,0 +1,545 @@
+{
+  "version": 2,
+  "overrideBehaviour": 1,
+      ////////////////////////////////////
+    // #### Weapon Types ####
+    // AssaultCarbine
+    // AssaultRifle
+    // MachineGun
+    // GrenadeLauncher
+    // MarksmanRifle
+    // Pistol
+    // Revolver
+    // Shotgun
+    // SniperRifle
+    // Smg
+    // ThrowWeap
+    // Knife
+  "manualTypeOverrides": {
+    // grenades
+    "029adeade000000000000000": "ThrowWeap", // MHG0 stun frag grenade
+    "029adeade001000000000000": "ThrowWeap", // MHG1 frag grenade
+    "67b49e7335dec48e3e05e057": "ThrowWeap", // F-1 hand grenade (Reduced delay)
+
+    // explosives
+    "69fe6849e4e15282c54fccf7": "GrenadeLauncher", // Diemaco M203 Grenade Launcher w/Chassis
+    "5d52cc5ba4b9367408500062": "GrenadeLauncher", // AGS-30 30x29mm automatic grenade launcher
+    "6275303a9f372d6ea97f9ec7": "GrenadeLauncher,Revolver", // Milkor M32A1 MSGL 40mm grenade launcher
+    "639af924d0446708ee62294e": "GrenadeLauncher", // FN40GL Mk2 grenade launcher
+    "639c3fbbd0446708ee622ee9": "GrenadeLauncher", // FN40GL Mk2 grenade launcher
+    "5e81ebcd8e146c7080625e15": "GrenadeLauncher", // FN40GL Mk2 40mm grenade launcher
+    "62e7e7bbe6da9612f743f1e0": "GrenadeLauncher", // GP-25 Kostyor 40mm underbarrel grenade launcher
+    "5648b62b4bdc2d9d488b4585": "GrenadeLauncher", // GP-34 40mm underbarrel grenade launcher
+    "6357c98711fb55120211f7e1": "GrenadeLauncher", // M203 40mm underbarrel grenade launcher
+    "620109578d82e67e7911abf2": "GrenadeLauncher,Pistol", // ZiD SP-81 26x75 signal pistol
+    "676bf44c5539167c3603e869": "GrenadeLauncher", // RShG-2 72.5mm rocket launcher
+    
+    // assault carbines
+    "6871284e9a353bb50606f3ed": "AssaultCarbine,AssaultRifle", // AS VAL MOD.4 9x39 special assault rifle
+    "644674a13d52156624001fbc": "AssaultCarbine,AssaultRifle", // KBP 9A-91 9x39 compact assault rifle
+    "645e0c6b3b381ede770e1cc9": "AssaultCarbine,SniperRifle,MarksmanRifle", // KBP VSK-94 9x39 rifle
+    "651450ce0e00edc794068371": "AssaultCarbine,AssaultRifle", // SR-3M 9x39 compact assault rifle
+    "66e88596febdcf9daade16a8": "AssaultCarbine,MarksmanRifle", // Zastava M76 7.92x57 marksman rifle
+    
+    // assault rifles
+    "5c488a752e221602b412af63": "AssaultRifle,MarksmanRifle", // Desert Tech MDR 5.56x45 assault rifle
+    "5dcbd56fdbd3d91b3e5468d5": "AssaultRifle,MarksmanRifle", // Desert Tech MDR 7.62x51 assault rifle
+    "6183afd850224f204c1da514": "AssaultRifle,MarksmanRifle", // FN SCAR-H 7.62x51 assault rifle
+    "6165ac306ef05c2ce828ef74": "AssaultRifle,MarksmanRifle", // FN SCAR-H 7.62x51 assault rifle (FDE)
+    "676176d362e0497044079f4c": "AssaultRifle,MarksmanRifle", // FN SCAR-H X-17 7.62x51 assault rifle
+    "6184055050224f204c1da540": "AssaultRifle,MarksmanRifle", // FN SCAR-L 5.56x45 assault rifle
+    "618428466ef05c2ce828f218": "AssaultRifle,MarksmanRifle", // FN SCAR-L 5.56x45 assault rifle (FDE)
+    "682a97a707ec1d7ca369afc4": "AssaultRifle,MarksmanRifle", // FN SCAR-L MK2 .300 Blackout assault rifle
+    "6963f79ab66d6c6601a8b2d7": "AssaultRifle,AssaultCarbine", // HK 337 .300 Blackout assault rifle
+    "664a5b945636ce820472f225": "AssaultRifle,MarksmanRifle", // HK 417 7.62x51 assault rifle
+    "689166b6c2d6fa42e7044756": "AssaultRifle,MarksmanRifle", // Kalashnikov AK-308 7.62x51 assault rifle
+    "68dec580d8cef922540a65c6": "AssaultRifle,AssaultCarbine", // Kalashnikov SR-1 5.56x45 NATO
+    "68e1040726e57f736103f027": "AssaultRifle,AssaultCarbine", // Kalashnikov SR-1 5.56x45 NATO (FDE)
+    "5d43021ca4b9362eab4b5e25": "AssaultRifle,AssaultCarbine,MarksmanRifle", // Lone Star TX-15 DML 5.56x45 carbine
+    "59e6152586f77473dc057aa1": "AssaultCarbine", // Molot Arms VPO-136 Vepr-KM 7.62x39 carbine
+    "59e6687d86f77411d949b251": "AssaultCarbine", // Molot Arms VPO-209 .366 TKM carbine
+    "020020aacbbcfb0000000000": "AssaultRifle,MarksmanRifle", // Rattle Back MCW 5.56x45 marksman rifle
+    "628b5638ad252a16da6dd245": "AssaultRifle,AssaultCarbine,AK,AK-74", // SAG AK-545 5.45x39 carbine
+    "628b9c37a733087d0d7fe84b": "AssaultRifle,AssaultCarbine,AK,AK-74", // SAG AK-545 Short 5.45x39 carbine
+    "8d59d8b10a4c2e85b871c317": "AssaultRifle,MarksmanRifle,mcx_spear", // SIG MCX SPEAR 7.62x51 assault rifle
+    "65290f395ae2ae97b80fdf2d": "AssaultRifle,MarksmanRifle,mcx_spear", // SIG MCX-SPEAR 6.8x51 assault rifle
+    "69d96cb2c67105f11e72c0ae": "AssaultRifle,MarksmanRifle", // Salco Industries: SCAR-68 6.8x51 assault rifle
+    "020020308308000000000000": "AssaultRifle,Smg", // TDI KRISS Vector Gen.2 7.62x51 assault rifle
+    
+    // machineguns
+    "682d4820e48f3c573ec332b5": "MachineGun,AssaultRifle", // Bofors Ak5G 5.56x45 light machinegun
+    "5beed0f50db834001c062b12": "MachineGun,AssaultRifle", // RPK-16 5.45x39 light machine gun
+
+    // dmr
+    "6945dc69fe52c2415de357f7": "MarksmanRifle,GrenadeLauncher", // Barrett XM109 25x59 anti-material payload rifle
+    "5f2a9575926fd9352339381f": "MarksmanRifle,AssaultCarbine", // Kel-Tec RFB 7.62x51 rifle
+    "57838ad32459774a17445cd2": "MarksmanRifle,SniperRifle", // VSS Vintorez 9x39 special sniper rifle
+
+    // smg
+    "67f425638b8cbfdc0cd1b5f2": "Smg,AssaultRifle,AssaultCarbine", // IWI Tavor X95 9x19 submachine gun
+    "6958447bfc5cad58acf95c0f": "Smg,AssaultCarbine", // HK USC .45 ACP carbine
+    "60339954d62c9b14ed777c06": "Smg,AssaultCarbine", // Soyuz-TM STM-9 Gen.2 9x19 carbine
+    "020020bef1bef10000000000": "Smg,AssaultCarbine", // Tectonic Tactical Superi 46 4.6x30 submachine gun
+    
+    // shotguns
+    "61f7c9e189e6fb1a5e3ea78d": "BoltActionSniperRifle,SniperRifle,Shotgun,PumpActionShotgun", // MP-18 7.62x54R single-shot rifle (god gives his toughest types to his strongest weapons)
+    
+    // sniper rifles
+    "68a3836826dffa87b5767c04": "BoltActionSniperRifle,AXMC", // Accuracy International AXMC .300 WM bolt-action sniper rifle
+
+
+    
+    // revolvers
+    "624c2e8614da335f1e034d8c": "Revolver,Pistol", // Chiappa Rhino 200DS 9x19 revolver
+    "61a4c8884f95bc3b2c5dc96f": "Revolver,Pistol", // Chiappa Rhino 50DS .357 revolver
+    "60db29ce99594040e04c4a27": "Revolver,Shotgun", // MTs-255-12 12ga shotgun
+    "633ec7c2a6918cb895019c6c": "Revolver,Pistol" // RSh-12 12.7x55 revolver
+    
+    
+    
+    // custom types additions that for some reason can't be catched by regex
+
+
+  },
+  "canBeUsedAs": {
+    "5c46fbd72e2216398b5a8c9c": ["SVD"],
+    "5ac4cd105acfc40016339859": ["68e1040726e57f736103f02c"], // ak-74m
+    "5ac66d9b5acfc4001633997a": ["68d96442d7aac8a7a904db00","693c5deb2e28b0b1e304ad40","693db6b02539fba19b0c1390"], // ak-105
+    "57c44b372459772d2b39b8ce": ["6871284e9a353bb50606f3ed"], // val
+    "587e02ff24597743df3deaeb": ["574d967124597745970e7c94","69b5c78205424d948b96044a"], // sks
+    "5df8ce05b11454561e39243b": ["683d23831960b7bac66f4f05","6932abeb5403890d0c09c926","6831efcaf17211a895bbccc4"], // sr-25
+    "5cadc190ae921500103bb3b6": ["6868d249cdee524f8c0ba45f"], // beretta m9a3 - 92fs
+    "5fbcc1d9016cce60e8341ab3": ["683df636e1e3fa1bf165f7ed"], // mcx .300 + mcx multical
+    // "5bfea6e90db834001b7347f3": ["68324e7849e4f772900f58e8","0af5f6a5aa9712e11c733fb9","69adc1296e219c567098c450"], // Remington Model 700
+    "5aafa857e5b5b00018480968": ["020020aa14aa140000000000","69aef128af73d73b4e0ce546"], // Springfield Armory M14/M1A
+    "5e81ebcd8e146c7080625e15": ["639af924d0446708ee62294e","639c3fbbd0446708ee622ee9"]
+
+  },
+  "aliasNameStripWords": [],
+  "aliasNameExcludeWeapons": [
+    "MCW",
+    "ISO",
+    "Hemlock",
+    "SR-25",
+    "Expedite",
+    "Mk47",
+    "AK",
+    ".300 Blackout",
+    ".300",
+    "Blackout",
+    "FDE",
+    "OD",
+    "furry",
+    "black",
+    "BK",
+    "GRY",
+    ".277",
+    "red",
+    "gold",
+    "multi",
+    "caliber",
+    "Anodized",
+    "green",
+    "tan",
+    "MCX",
+    "AKS-74UN",
+    "AKS-74UB",
+    "AKS-74U",
+    "SIG",
+    "Virtus",
+    "AK-"
+  ],
+  "customTypeRules": [
+    {
+      "comment": "Group for AKM like weapons",
+      "conditions": {
+        "and": [
+          {"nameMatches": "\\b(AKM|AK-10|VPO-|Draco)\\w*"},
+          {     
+            "or": [
+              {
+                "caliber": "Caliber762x39"
+              },
+              {
+                "caliber": "Caliber366TKM"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "AssaultRifle"
+              },
+              {
+                "hasAncestor": "AssaultCarbine"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "AKM",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for AKS-74U like weapons",
+      "conditions": {
+        "nameMatches": "\\b(AKS-74U)\\w*"
+      },
+      "type": "AKS-74U"
+    },
+    {
+      "comment": "Group for AKS-74UB like weapons",
+      "conditions": {
+        "nameMatches": "\\b(AKS-74UB)\\w*"
+      },
+      "type": "AKS-74UB",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for M700 like weapons",
+      "conditions": {
+        "nameMatches": "\\b(m700|m754)\\w*",
+        "hasAncestor": "BoltActionSniperRifle"
+      },
+      "type": "m700",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for SKS like weapons",
+      "conditions": {
+        "nameMatches": "\\b(sks)\\w*"
+      },
+      "type": "sks",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for AK platform weapons",
+      "conditions": {
+        "and": [
+          {"nameMatches": "\\b(AK|Draco|RAK74-P|AKS-74|AKS-74U|AEK-|AN-94)\\w*"},
+          {
+            "or": [
+              {
+                "caliber": "Caliber545x39"
+              },
+              {
+                "caliber": "Caliber556x45NATO"
+              },
+              {
+                "caliber": "Caliber762x35"
+              },
+              {
+                "caliber": "Caliber366TKM"
+              },
+              {
+                "caliber": "Caliber9x19PARA"
+              },
+              {
+                "caliber": "Caliber9x39"
+              },
+              {
+                "caliber": "Caliber762x39"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "AssaultRifle"
+              },
+              {
+                "hasAncestor": "AssaultCarbine"
+              },
+              {
+                "hasAncestor": "Smg"
+              }
+            ]
+          },
+          {
+            "not": {
+              "nameMatches": "(\\b(AK-50|Bofors)\\w*)"
+            }
+          }
+        ]
+      },
+      "type": "AK",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for AK-74 like weapons",
+      "conditions": {
+        "nameMatches": "\\b(AK-74|AKS-74|AK-545|Saiga SGL31|Saiga MK Ver. 030|AN-94|AEK-971)\\w*",
+        "or": [
+          {
+            "hasAncestor": "AssaultRifle"
+          },
+          {
+            "hasAncestor": "AssaultCarbine"
+          },
+          {
+            "hasAncestor": "Smg"
+          }
+        ]
+      },
+      "type": "AK-74",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for AR-15 like weapons",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15)\\w*"
+              },
+              {
+                "descriptionMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15)\\w*"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "AssaultRifle"
+              },
+              {
+                "hasAncestor": "AssaultCarbine"
+              },
+              {
+                "hasAncestor": "Smg"
+              },
+              {
+                "hasAncestor": "MarksmanRifle"
+              }
+            ]
+          },
+          {
+            "not": {
+              "or": [
+                {
+                  "nameMatches": "(\\b(SR-|MCX|ACR|HK)\\w*)"
+                },
+                {
+                  "descriptionMatches": "(\\b(SR-|MCX|ACR|HK)\\w*)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "AR-15",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for M4A1 like weapons",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "\\b(M4A|Wages|JAK)\\w*"
+              },
+              {
+                "descriptionMatches": "\\b(M4A|Wages|JAK)\\w*"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "caliber": "Caliber556x45NATO"
+              },
+              {
+                "caliber": "Caliber762x35"
+              },
+              {
+                "caliber": "Caliber762x39"
+              },
+              {
+                "caliber": "Caliber22LR"
+              },
+              {
+                "caliber": "Caliber9x39"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "AssaultRifle"
+              },
+              {
+                "hasAncestor": "AssaultCarbine"
+              },
+              {
+                "hasAncestor": "MarksmanRifle"
+              }
+            ]
+          },
+          {
+            "not": {
+              "or": [
+                {
+                  "nameMatches": "(\\b(SR-|MCX|ACR|HK|AR-15J)\\w*)"
+                },
+                {
+                  "descriptionMatches": "(\\b(SR-|MCX|ACR|HK|AR-15J)\\w*)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "M4A1"
+    },
+    {
+      "comment": "Group for MP-shotguns like weapons",
+      "conditions": {
+        "nameMatches": "\\b(MP-)\\w*",
+        "hasAncestor": "Shotgun"
+      },
+      "type": "MP-shotguns",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for SVD like weapons",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "\\b(svd|svds)\\w*"
+              },
+              {
+                "descriptionMatches": "\\b(svd|svds)\\w*"
+              }
+            ]
+          },
+          {
+            "caliber": "Caliber762x54R"
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "MarksmanRifle"
+              },
+              {
+                "hasAncestor": "SniperRifle"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "SVD",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for explosive like weapons",
+      "conditions": {
+        "nameMatches": "\\b(grenade|launcher)\\w*"
+      },
+      "type": "explosive"
+    },
+    {
+      "comment": "Group for 12ga chambered weapons",
+      "conditions": {
+        "caliber": "Caliber12g",
+        "hasAncestor": "Shotgun"
+      },
+      "type": "12ga"
+    },
+    {
+      "comment": "Group for cal_9x19 chambered weapons",
+      "conditions": {
+        "caliber": "Caliber9x19PARA"
+      },
+      "type": "cal_9x19"
+    },
+    {
+      "comment": "Group for cal_9x39 chambered weapons",
+      "conditions": {
+        "caliber": "Caliber9x39"
+      },
+      "type": "cal_9x39"
+    },
+    {
+      "comment": "Group for cal_556x45NATO chambered weapons",
+      "conditions": {
+        "caliber": "Caliber556x45NATO"
+      },
+      "type": "cal_556x45NATO"
+    },
+    {
+      "comment": "Group for cal_545x39 chambered weapons",
+      "conditions": {
+        "caliber": "Caliber545x39",
+        "not": {
+          "nameMatches": "(Utyos)"
+        }
+      },
+      "type": "cal_545x39"
+    },
+    {
+      "comment": "Group for cal_762x35 chambered weapons",
+      "conditions": {
+        "caliber": "Caliber762x35"
+      },
+      "type": "cal_762x35"
+    },
+    {
+      "comment": "Group for cal_762x39 chambered weapons",
+      "conditions": {
+        "caliber": "Caliber762x39"
+      },
+      "type": "cal_762x39"
+    },
+    {
+      "comment": "Group for cal_762x54R chambered weapons",
+      "conditions": {
+        "caliber": "Caliber762x54R"
+      },
+      "type": "cal_762x54R"
+    },
+    {
+      "comment": "Group for cal_366TKM chambered weapons",
+      "conditions": {
+        "caliber": "Caliber366TKM"
+      },
+      "type": "cal_366TKM"
+    },
+    {
+      "comment": "Group for cal_338 chambered weapons",
+      "conditions": {
+        "or": [
+          {
+            "caliber": "Caliber86x70"
+          },
+          {
+            "caliber": "Caliber86x63"
+          }
+        ],
+        "not": {
+          "nameMatches": "(\\b(.300|Winchester)\\w*)"
+        }
+      },
+      "type": "cal_338",
+      "applyToManualOverrides": true
+    },
+    {
+      "comment": "Group for cal_762x25TT chambered weapons",
+      "conditions": {
+        "caliber": "Caliber762x25TT"
+      },
+      "type": "cal_762x25TT"
+    },
+    {
+      "comment": "Group for cal_22lr chambered weapons",
+      "conditions": {
+        "caliber": "Caliber22LR"
+      },
+      "type": "cal_22lr"
+    }
+  ]
+
+}

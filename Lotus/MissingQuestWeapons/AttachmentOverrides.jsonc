@@ -1,0 +1,152 @@
+{
+  "version": 2,
+  "overrideBehaviour": 1,
+
+  // Manual attachment type overrides: attachment ID → comma-separated type names.
+  // When set, auto-detection by rule chain is bypassed for that item.
+  "manualAttachmentTypeOverrides": {},
+
+  // Explicit cross-links between attachment IDs — used when two items are functionally
+  // interchangeable in quest terms but have different types or names. Most pure color
+  // variants are already linked automatically via the short-name aliasing below.
+  "canBeUsedAs": {},
+
+  // Tokens stripped from attachment locale names before short-name aliasing.
+  // Any two attachments whose names match after stripping become canBeUsedAs of each other.
+  // Comparison is whole-word, case-insensitive (see CategorizationHelper.RemoveIgnoredWords).
+  //
+  // ONLY color / finish suffix tokens go here. Model, manufacturer, interface, mechanism,
+  // and "Prototype"/"Customized" markers are intentionally excluded — those distinguish
+  // functionally different items and must not be aliased together.
+  "aliasNameStripWords": [
+  ],
+  "customTypeRules": [
+    // {
+    //   "comment": "PSO-1 scopes",
+    //   "conditions": {
+    //     "nameMatches": "\\b(PSO-1)\\w*"
+    //   },
+    //   "type": "PSO-1"
+    // },
+    {
+      "comment": "Schmidt & Bender Riflescopes",
+      "conditions": {
+        "nameMatches": "\\b(Schmidt & Bender)\\w*",
+        "hasAncestor": "Sights"
+      },
+      "type": "schmidt_n_bender_scopes"
+    },
+    {
+      "comment": "Group for 30mm riflescopes",
+      "conditions": {
+        "nameMatches": "\\b(30mm)\\w*",
+        "hasAncestor": "Sights"
+      },
+      "type": "30mm_scopes"
+    },
+    {
+      "comment": "Group for 34mm riflescopes",
+      "conditions": {
+        "nameMatches": "\\b(34mm)\\w*",
+        "hasAncestor": "Sights"
+      },
+      "type": "34mm_scopes"
+    },
+    {
+      "comment": "Group for all vortex scopes",
+      "conditions": {
+        "nameMatches": "\\b(vortex)\\w*",
+        "hasAncestor": "Sights"
+      },
+      "type": "all_vortex_scopes"
+    },
+    {
+      "comment": "Group for all elcan scopes",
+      "conditions": {
+        "nameMatches": "\\b(elcan)\\w*",
+        "hasAncestor": "Sights"
+      },
+      "type": "all_elcan_scopes"
+    },
+    {
+      "comment": "Group for all aimpoint scopes",
+      "conditions": {
+        "nameMatches": "\\b(aimpoint)\\w*",
+        "hasAncestor": "Sights"
+      },
+      "type": "all_aimpoint_scopes"
+    },
+    {
+      "comment": "Group for m60 lmg 458mm barrels",
+      "conditions": {
+        "nameMatches": "(M60).*(458mm)",
+        "hasAncestor": "Barrel"
+      },
+      "type": "m60_458mm_barrels"
+    },
+    {
+      "comment": "Group for all surefire silencers",
+      "conditions": {
+        "nameMatches": "\\b(surefire)\\w*",
+        "hasAncestor": "Silencer"
+      },
+      "type": "all_surefire_silencers"
+    },
+    {
+      "comment": "group for all flashlights",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "\\b(flashligh)\\w*"
+              },
+              {
+                "descriptionMatches": "\\b(flashligh)\\w*"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "TacticalCombo"
+              },
+              {
+                "hasAncestor": "Flashlight"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "all_flashlights"
+    },
+    {
+      "comment": "group for all EOTech  scopes",
+      "conditions": {
+        "and": [
+          {
+            "or": [
+              {
+                "nameMatches": "\\b(EOTech)\\w*"
+              },
+              {
+                "descriptionMatches": "\\b(EOTech)\\w*"
+              }
+            ]
+          },
+          {
+            "or": [
+              {
+                "hasAncestor": "Collimator"
+              },
+              {
+                "hasAncestor": "OpticScope"
+              }
+            ]
+          }
+        ]
+      },
+      "type": "all_eotech"
+    }
+  ]
+}

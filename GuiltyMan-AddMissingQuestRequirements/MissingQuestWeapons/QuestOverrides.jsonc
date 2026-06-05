@@ -1,0 +1,167 @@
+{
+  "version": 3,
+  "overrideBehaviour": 1,
+  "excludedQuests": [
+    "666314b2a9290f9e0806cca3",  // Hell on Earth - Part 2
+    "666314bafd5ca9577902e03a",  // The Good Times - Part 2
+    "669fa3a40c828825de06d6a1",  // Test Drive - Part 5
+    "671a59e43d73dac1360765cc"  // Dangerous Props
+  ],
+  // Mod-group overrides (A3). Mod groups use intra-group AND, cross-group OR:
+  //   "modsExpansionMode": "Auto" | "WhitelistOnly" | "NoExpansion"
+  //     Auto           — singleton groups expand via type + aliases into new singleton
+  //                      groups; multi-item groups kept verbatim (AND-bundles preserved).
+  //     WhitelistOnly  — original field discarded; rebuilt as singleton groups from
+  //                      includedMods alone.
+  //     NoExpansion    — original groups kept verbatim; includedMods still appended.
+  //   "includedMods":  ["attachmentId", "TypeName", ...]  appended as new singleton
+  //                                                       groups (type names expand
+  //                                                       to one singleton per member).
+  //   "excludedMods":  ["attachmentId", "TypeName", ...]  applied last:
+  //                      bare id    → drops any output group containing the id;
+  //                      type name  → drops only groups whose members are entirely
+  //                                   within that type (mixed bundles kept).
+  "overrides": [
+    {
+      "id": "63a9ae24009ffc6a551631a5", // Best job in the world
+      "expansionMode": "2",
+      "includedWeapons": ["AK-74"]
+    },
+    {
+      "id": "5bc4776586f774512d07cf05", // Tarkov shooter - part 1
+      "expansionMode": 2,
+      "includedWeapons": ["BoltAction"]
+    },
+    {
+      "id": "59ca2eb686f77445a80ed049", // The Punisher - Part 6
+      "expansionMode": 2,
+      "includedWeapons": ["SVD"]
+    },
+    {
+      "id": "63a9b229813bba58a50c9ee5", // Worst job in the world
+      "expansionMode": 2,
+      "includedWeapons": ["AR-15"]
+    },
+    {
+      "id": "5a27bb8386f7741c770d2d0a", // Wet Job - Part 1
+      "expansionMode": 2,
+      "includedWeapons": ["AR-15"],
+      "modsExpansionMode": 2,
+      "includedMods": ["all_silencers"]
+      
+    },
+    {
+      "id": "5c1234c286f77406fa13baeb", // Setup
+      "expansionMode": 2,
+      "includedWeapons": ["MP-shotguns"]
+    },
+    {
+      "id": "5a03153686f77442d90e2171", // Spa Tour - part 1
+      "expansionMode": 2,
+      "includedWeapons": ["12ga"]
+    },
+    {
+      "id": "59ca264786f77445a80ed044", // The Punisher - Part 4
+      "expansionMode": 2,
+      "includedWeapons": ["12ga"]
+    },
+    {
+      "id": "5c0d4c12d09282029f539173", // Peacekeeping Mission
+      "expansionMode": 2,
+      "includedWeapons": ["M4A1"]
+    },
+    {
+      "id": "666314b4d7f171c4c20226c3", // The Good Times - Part 1
+      "expansionMode": 2,
+      "includedWeapons": ["M4A1"]
+    },
+    {
+      "id": "66058cb9e8e4f17985230805", // Balancing - Part 2
+      "expansionMode": 2,
+      "includedWeapons": ["AKS-74UB"]
+    },
+    {
+      "id": "64e7b9bffd30422ed03dad38", // Gendarmerie - District Patrol
+      "expansionMode": 2,
+      "includedWeapons": ["AssaultRifle",
+        "AssaultCarbine"]
+    },
+    {
+      "id": "5c0bd94186f7747a727f09b2", // Test-drive. Part 1
+      "expansionMode": 2,
+      "includedWeapons": ["M1A"]
+    },
+    {
+      "id": "64f5deac39e45b527a7c4232", // Test-drive. Part 3
+      "expansionMode": 2,
+      "includedWeapons": ["AK-12_like"]
+    },
+    {
+      "id": "675c1ff1a757ddd00404f0aa", // Test-drive. Part 6
+      "expansionMode": 2,
+      "includedWeapons": ["Velociraptor_only"]
+    },
+    {
+      "id": "66a75b44243a6548ff5e5ff9", // Gun Connoisseur
+      "expansionMode": 2,
+      "conditions": ["66a76d45acbbf739afad1fea"],
+      "includedWeapons": ["cal_556x45NATO"]
+    },
+    {
+      "id": "66a75b44243a6548ff5e5ff9", // Gun Connoisseur
+      "expansionMode": 2,
+      "conditions": ["66a76d693cda803a9788be30"],
+      "includedWeapons": ["cal_545x39"]
+    },
+    {
+      "id": "66a75b44243a6548ff5e5ff9", // Gun Connoisseur
+      "expansionMode": 2,
+      "conditions": ["66a76daa3a883f3481e56b96"],
+      "includedWeapons": ["cal_762x39"]
+    },
+    {
+      "id": "66a75b44243a6548ff5e5ff9", // Gun Connoisseur
+      "expansionMode": 2,
+      "conditions": ["66a76efbe0a0eb89847ac586"],
+      "includedWeapons": ["cal_762x54R"]
+    },
+    {
+      "id": "66a75b44243a6548ff5e5ff9", // Gun Connoisseur
+      "expansionMode": 2,
+      "conditions": ["66a76fb52a58ea63fbb62d67"],
+      "includedWeapons": ["cal_9x19"]
+    },
+    {
+      "id": "66a75b44243a6548ff5e5ff9", // Gun Connoisseur
+      "expansionMode": 2,
+      "conditions": ["66a76fc57a265a8879856491"],
+      "includedWeapons": ["cal_9x39"]
+    },
+    {
+      "id": "59c50a9e86f7745fef66f4ff", // The Punisher - Part 1
+      "expansionMode": 2,
+      "includedWeapons": ["AKM"]
+    },
+    {
+      "id": "59c50a9e86f7745fef66f4ff", // The Punisher - Part 2
+      "expansionMode": 0,
+      "modsExpansionMode": 2,
+      "includedMods": ["all_silencers"]
+    },
+    {
+      "id": "59c512ad86f7741f0d09de9b", // The Punisher - Part 3
+      "expansionMode": 2,
+      "includedWeapons": ["AKS-74U"]
+    },
+    {
+      "id": "5c0d190cd09282029f5390d8", // Grenadier
+      "expansionMode": 2,
+      "includedWeapons": ["ThrowWeap"]
+    },
+    {
+      "id": "5d25e4ca86f77409dd5cdf2c", // Hunting Trip
+      "expansionMode": 2,
+      "includedWeapons": ["m700"]
+    }
+  ]
+}
