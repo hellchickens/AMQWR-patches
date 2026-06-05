@@ -65,6 +65,7 @@
     "65290f395ae2ae97b80fdf2d": "AssaultRifle,MarksmanRifle,mcx_spear", // SIG MCX-SPEAR 6.8x51 assault rifle
     "69d96cb2c67105f11e72c0ae": "AssaultRifle,MarksmanRifle", // Salco Industries: SCAR-68 6.8x51 assault rifle
     "020020308308000000000000": "AssaultRifle,Smg", // TDI KRISS Vector Gen.2 7.62x51 assault rifle
+    "69fbe2205f919280cea5c188": "AssaultRifle,AssaultCarbine,MarksmanRifle", // Cobalt Kinetics Model 27 5.56x45 carbine
     
     // machineguns
     "682d4820e48f3c573ec332b5": "MachineGun,AssaultRifle", // Bofors Ak5G 5.56x45 light machinegun
@@ -86,6 +87,7 @@
     
     // sniper rifles
     "68a3836826dffa87b5767c04": "BoltActionSniperRifle,AXMC", // Accuracy International AXMC .300 WM bolt-action sniper rifle
+    "695c42816dd1786b89029345": "BoltActionSniperRifle,Shotgun", // USPSA .50 cal rifle
 
 
     
@@ -110,9 +112,9 @@
     "5df8ce05b11454561e39243b": ["683d23831960b7bac66f4f05","6932abeb5403890d0c09c926","6831efcaf17211a895bbccc4"], // sr-25
     "5cadc190ae921500103bb3b6": ["6868d249cdee524f8c0ba45f"], // beretta m9a3 - 92fs
     "5fbcc1d9016cce60e8341ab3": ["683df636e1e3fa1bf165f7ed"], // mcx .300 + mcx multical
-    // "5bfea6e90db834001b7347f3": ["68324e7849e4f772900f58e8","0af5f6a5aa9712e11c733fb9","69adc1296e219c567098c450"], // Remington Model 700
     "5aafa857e5b5b00018480968": ["020020aa14aa140000000000","69aef128af73d73b4e0ce546"], // Springfield Armory M14/M1A
-    "5e81ebcd8e146c7080625e15": ["639af924d0446708ee62294e","639c3fbbd0446708ee622ee9"]
+    "5e81ebcd8e146c7080625e15": ["639af924d0446708ee62294e","639c3fbbd0446708ee622ee9"],
+    "63171672192e68c5460cebc5": ["69d44e3d9e11b4757df438ad","6718817435e3cfd9550d2c27"] // Steyr AUG +.300 blk
 
   },
   "aliasNameStripWords": [],
@@ -216,7 +218,7 @@
       "comment": "Group for AK platform weapons",
       "conditions": {
         "and": [
-          {"nameMatches": "\\b(AK|Draco|RAK74-P|AKS-74|AKS-74U|AEK-|AN-94)\\w*"},
+          {"nameMatches": "\\b(AK|Draco|RAK74-P|AKS-74|AKS-74U|AEK-|AN-94|SAK-21)\\w*"},
           {
             "or": [
               {
@@ -291,10 +293,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15)\\w*"
+                "nameMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|JAK|PSA|TR-1)\\w*"
               },
               {
-                "descriptionMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15)\\w*"
+                "descriptionMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|PSA|TR-1)\\w*"
               }
             ]
           },
@@ -338,10 +340,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(M4A|Wages|JAK)\\w*"
+                "nameMatches": "\\b(M4A|Wages|JAK|Honey)\\w*"
               },
               {
-                "descriptionMatches": "\\b(M4A|Wages|JAK)\\w*"
+                "descriptionMatches": "\\b(M4A|Wages|JAK|Honey)\\w*"
               }
             ]
           },

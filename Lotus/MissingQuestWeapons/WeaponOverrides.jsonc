@@ -233,10 +233,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-|AKM|AK-1|AK-74|AKS-74U|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev|RPK-16|SR-3M|zastava|saiga|VPO-136|VPO-209|Simonov|Konstantinov)\\w*"
+                "nameMatches": "\\b(AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-|AKM|AK-1|AK-74|AKS-74U|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev|RPK-16|SR-3M|zastava|saiga|VPO-136|VPO-209|Simonov|Konstantinov|AS-1|AS-2)\\w*"
               },
               {
-                "descriptionMatches": "\\b(AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-|AKM|AK-1|AK-74|AKS-74U|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev|RPK-16|SR-3M|zastava|saiga|VPO-136|VPO-209|Simonov|Konstantinov)\\w*"
+                "descriptionMatches": "\\b(AR-15J|AK|ASh-12|Val|AN-94|Molot|Kalashnikov|VPO-|AKM|AK-1|AK-74|AKS-74U|AEK-9|AN-94|KBP|SAG|Russia|Russian|Soviet|AVT|SVT|AKS|AKS-74|ADAR|Tokarev|RPK-16|SR-3M|zastava|saiga|VPO-136|VPO-209|Simonov|Konstantinov|AS-1|AS-2)\\w*"
               }
             ]
           },
