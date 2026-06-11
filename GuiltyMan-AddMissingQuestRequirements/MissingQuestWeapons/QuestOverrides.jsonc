@@ -162,6 +162,11 @@
       "id": "5d25e4ca86f77409dd5cdf2c", // Hunting Trip
       "expansionMode": 2,
       "includedWeapons": ["m700"]
+    },
+    {
+      "id": "67b45467814ab0ffa000c7e7", // The Art of Explosion
+      "expansionMode": 2,
+      "includedWeapons": ["explosive"]
     }
   ]
 }

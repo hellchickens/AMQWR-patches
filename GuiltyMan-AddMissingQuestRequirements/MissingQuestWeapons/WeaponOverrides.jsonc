@@ -293,10 +293,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|JAK|PSA|TR-1)\\w*"
+                "nameMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|JAK|PSA|TR-1|M16|AM-15)\\w*"
               },
               {
-                "descriptionMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|PSA|TR-1)\\w*"
+                "descriptionMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|PSA|TR-1|M16|AM-15)\\w*"
               }
             ]
           },
@@ -340,10 +340,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(M4A|Wages|JAK|Honey)\\w*"
+                "nameMatches": "\\b(M4A|Wages|JAK|Honey|M16)\\w*"
               },
               {
-                "descriptionMatches": "\\b(M4A|Wages|JAK|Honey)\\w*"
+                "descriptionMatches": "\\b(M4A|Wages|JAK|Honey|M16)\\w*"
               }
             ]
           },
