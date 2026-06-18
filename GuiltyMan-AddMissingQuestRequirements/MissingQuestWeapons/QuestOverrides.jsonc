@@ -38,6 +38,13 @@
       "includedWeapons": ["SVD"]
     },
     {
+      "id": "5bc4856986f77454c317bea7", // The Punisher - Part 7
+      "expansionMode": 2,
+      "includedWeapons": ["BoltAction"],
+      "modsExpansionMode": 2,
+      "includedMods": ["all_silencers"]
+    },
+    {
       "id": "63a9b229813bba58a50c9ee5", // Worst job in the world
       "expansionMode": 2,
       "includedWeapons": ["AR-15"]
