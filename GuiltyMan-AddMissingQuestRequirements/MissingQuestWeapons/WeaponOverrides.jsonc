@@ -270,7 +270,7 @@
     {
       "comment": "Group for AK-74 like weapons",
       "conditions": {
-        "nameMatches": "\\b(AK-74|AKS-74|AK-545|Saiga SGL31|Saiga MK Ver. 030|AN-94|AEK-971)\\w*",
+        "nameMatches": "\\b(AK-74|AKS-74|AK-545|Saiga SGL31|Saiga MK Ver. 030|AN-94|AEK-971|AK-105)\\w*",
         "or": [
           {
             "hasAncestor": "AssaultRifle"
