@@ -58,7 +58,7 @@
     "5d43021ca4b9362eab4b5e25": "AssaultRifle,AssaultCarbine,MarksmanRifle", // Lone Star TX-15 DML 5.56x45 carbine
     "59e6152586f77473dc057aa1": "AssaultCarbine", // Molot Arms VPO-136 Vepr-KM 7.62x39 carbine
     "59e6687d86f77411d949b251": "AssaultCarbine", // Molot Arms VPO-209 .366 TKM carbine
-    "020020aacbbcfb0000000000": "AssaultRifle,MarksmanRifle", // Rattle Back MCW 5.56x45 marksman rifle
+    "020020aacbbcfb0000000000": "AssaultCarbine,AssaultRifle,MarksmanRifle", // Rattle Back MCW 5.56x45 marksman rifle
     "628b5638ad252a16da6dd245": "AssaultRifle,AssaultCarbine,AK,AK-74", // SAG AK-545 5.45x39 carbine
     "628b9c37a733087d0d7fe84b": "AssaultRifle,AssaultCarbine,AK,AK-74", // SAG AK-545 Short 5.45x39 carbine
     "8d59d8b10a4c2e85b871c317": "AssaultRifle,MarksmanRifle,mcx_spear", // SIG MCX SPEAR 7.62x51 assault rifle
@@ -340,10 +340,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(M4A|Wages|JAK|Honey|M16)\\w*"
+                "nameMatches": "\\b(M4A|Wages|JAK|Honey|M16|TX-15)\\w*"
               },
               {
-                "descriptionMatches": "\\b(M4A|Wages|JAK|Honey|M16)\\w*"
+                "descriptionMatches": "\\b(M4A|Wages|JAK|Honey|M16|TX-15)\\w*"
               }
             ]
           },
@@ -393,7 +393,8 @@
           }
         ]
       },
-      "type": "M4A1"
+      "type": "M4A1",
+      "applyToManualOverrides": true
     },
     {
       "comment": "Group for MP-shotguns like weapons",
