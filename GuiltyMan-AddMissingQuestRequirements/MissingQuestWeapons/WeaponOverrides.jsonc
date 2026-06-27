@@ -293,10 +293,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|JAK|PSA|TR-1|M16|AM-15|NL762|LR)\\w*"
+                "nameMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|JAK|PSA|TR-1|M16|AM-15|NL762|LR|CQ-A)\\w*"
               },
               {
-                "descriptionMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|PSA|TR-1|M16|AM-15|NL762|LR)\\w*"
+                "descriptionMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|PSA|TR-1|M16|AM-15|NL762|LR|CQ-A)\\w*"
               }
             ]
           },
