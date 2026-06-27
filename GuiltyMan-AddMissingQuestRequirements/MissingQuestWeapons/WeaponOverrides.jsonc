@@ -340,10 +340,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(M4A|Wages|JAK|Honey|M16|TX-15)\\w*"
+                "nameMatches": "\\b(M4A|Wages|JAK|Honey|M16|TX-15|CQ-A)\\w*"
               },
               {
-                "descriptionMatches": "\\b(M4A|Wages|JAK|Honey|M16|TX-15)\\w*"
+                "descriptionMatches": "\\b(M4A|Wages|JAK|Honey|M16|TX-15|CQ-A)\\w*"
               }
             ]
           },
