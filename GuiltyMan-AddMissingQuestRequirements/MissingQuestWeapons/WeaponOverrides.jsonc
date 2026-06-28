@@ -66,6 +66,10 @@
     "69d96cb2c67105f11e72c0ae": "AssaultRifle,MarksmanRifle", // Salco Industries: SCAR-68 6.8x51 assault rifle
     "020020308308000000000000": "AssaultRifle,Smg", // TDI KRISS Vector Gen.2 7.62x51 assault rifle
     "69fbe2205f919280cea5c188": "AssaultRifle,AssaultCarbine,MarksmanRifle", // Cobalt Kinetics Model 27 5.56x45 carbine
+    "6934966eb788e3ac1fd8a28d": "AssaultRifle,AssaultCarbine,M4A1,AR-15", // Daniel Defense MK18
+    "6934cac8923f68be4179c657": "AssaultRifle,AssaultCarbine,M4A1,AR-15", // Daniel Defense MK18 SOCOM
+    "693497a9873a74c81ec4f640": "AssaultRifle,AssaultCarbine,M4A1,AR-15", // Daniel Defense MK18 RIII SBR
+    "69349b67a3fe466bf138ab4c": "AssaultRifle,MarksmanRifle,M4A1,AR-15", // Daniel Defense MK12
     
     // machineguns
     "682d4820e48f3c573ec332b5": "MachineGun,AssaultRifle", // Bofors Ak5G 5.56x45 light machinegun
@@ -293,10 +297,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|JAK|PSA|TR-1|M16|AM-15|NL762|LR|CQ-A)\\w*"
+                "nameMatches": "\\b(AR-15|M4|ATL-15|Wages|ADAR|TX-15|Honey|JAK|PSA|TR-1|M16|AM-15|NL762|LR|CQ-A|DD)\\w*"
               },
               {
-                "descriptionMatches": "\\b(AR-15|M4A|ATL-15|Wages|ADAR|TX-15|Honey|PSA|TR-1|M16|AM-15|NL762|LR|CQ-A)\\w*"
+                "descriptionMatches": "\\b(AR-15|M4|ATL-15|Wages|ADAR|TX-15|Honey|PSA|TR-1|M16|AM-15|NL762|LR|CQ-A|DD)\\w*"
               }
             ]
           },
@@ -340,10 +344,10 @@
           {
             "or": [
               {
-                "nameMatches": "\\b(M4A|Wages|JAK|Honey|M16|TX-15|CQ-A)\\w*"
+                "nameMatches": "\\b(M4|Wages|JAK|Honey|M16|TX-15|CQ-A|DD)\\w*"
               },
               {
-                "descriptionMatches": "\\b(M4A|Wages|JAK|Honey|M16|TX-15|CQ-A)\\w*"
+                "descriptionMatches": "\\b(M4|Wages|JAK|Honey|M16|TX-15|CQ-A|DD)\\w*"
               }
             ]
           },
