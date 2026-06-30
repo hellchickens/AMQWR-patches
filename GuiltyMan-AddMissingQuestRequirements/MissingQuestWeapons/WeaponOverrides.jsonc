@@ -70,6 +70,7 @@
     "6934cac8923f68be4179c657": "AssaultRifle,AssaultCarbine,M4A1,AR-15", // Daniel Defense MK18 SOCOM
     "693497a9873a74c81ec4f640": "AssaultRifle,AssaultCarbine,M4A1,AR-15", // Daniel Defense MK18 RIII SBR
     "69349b67a3fe466bf138ab4c": "AssaultRifle,MarksmanRifle,M4A1,AR-15", // Daniel Defense MK12
+    "6895bb82c4519957df062f82": "AssaultRifle,M4A1,AR-15", // Radian Weapons Model 1 FA 5.56x45 assault rifle
     
     // machineguns
     "682d4820e48f3c573ec332b5": "MachineGun,AssaultRifle", // Bofors Ak5G 5.56x45 light machinegun
